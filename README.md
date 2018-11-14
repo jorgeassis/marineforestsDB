@@ -12,12 +12,12 @@ To address this gap, we gathered ~1,5 million records of 2166 important marine e
 
 ### R functions for data management and visualization
 
-We provide a set of functions in R language to to facilitate extraction, listing and visualization of occurrence records. The functions can be easily installed by entering the following line into the command prompt:
+We provide a set of functions in R language to facilitate extraction, listing and visualization of occurrence records. The functions can be easily installed by entering the following line into the command prompt:
 
 source("https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/sourceMe.R")
 
 
-Table. List of functions available to facilitate extraction, listing and visualization of occurrence records.
+Table. List of functions available for management and visualization.
 
 Function | Description | Arguments
 ------------ | ------------- | -------------
