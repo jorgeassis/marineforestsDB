@@ -17,6 +17,8 @@ We provide a set of functions in R language to to facilitate extraction, listing
 source("https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/sourceMe.R")
 
 
+Table. List of functions available to facilitate extraction, listing and visualization of occurrence records.
+
 Function | Description | Arguments
 ------------ | ------------- | -------------
 function() | Importing data to R environment | Datasets (character) (logical); (default)
