@@ -18,7 +18,7 @@ source("https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/sour
 
 <br>
 **List of functions available for management and visualization**
-<br><br>
+
 
 Function | Description | Arguments
 ------------ | ------------- | -------------
