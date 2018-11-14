@@ -12,4 +12,4 @@ Species distribution records are a prerequisite to follow climate-induced range 
 To address this gap, we gathered ~1,5 million records of 2166 important marine ecosystem structuring species of fan corals, large brown algae and seagrasses. We provide a curated dataset, taxonomically standardized, dereplicated and treated according to the physiological and biogeographical trait of species. Specifically, a flagging system was developed to sign potentially biased records occurring on land, in regions with limiting light or oxygen, or outside ecological niches and dispersal capacities. Experts were further consulted to validate the accuracy of records, relatively to the known distributional range of species. 
 <br>
 <br>
-Here we provide a set of functions in R language that were used to deal with raw data, and also for data managment and visualization.
+Here we provide a set of functions in R language for data managment and visualization.
