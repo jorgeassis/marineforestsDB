@@ -14,7 +14,7 @@ To address this gap, we gathered ~1,5 million records of 2166 important marine e
 
 We provide a set of functions in R language to facilitate extraction, listing and visualization of occurrence records. The functions can be easily installed by entering the following line into the command prompt:
 
-source("https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/sourceMe.R")
+source("https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/SOURCEME.R")
 
 <br>
 List of functions available for management and visualization:
