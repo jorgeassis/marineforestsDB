@@ -8,8 +8,8 @@
 ## https://github.com/jorgeassis
 ##
 ## Example:
-## worldLandMass <- "path to OpenStreetMap shaplefile"
-## worldcoastLine <- "path to OpenStreetMap shaplefile"
+## worldLandMass <- "path to OpenStreetMap shapefile"
+## worldcoastLine <- "path to OpenStreetMap shapefile"
 ## occurrences <- data.frame(Lon=c(-1.616312,-4.571766,-5.792875,-4.487367,-1.610729,-1.613608,-1.613608,-1.613608,-1.613608,-1.265241,1.46231,1.46231),Lat=c(43.42488,53.21599,35.78211,48.37753,43.42285,49.64333,49.64333,49.64333,49.64333,49.66931,41.16866,41.16866))
 ## recordsOverLand(occurrences)
 ##
