@@ -4,7 +4,7 @@
 ## A fine-tuned global distribution dataset of marine forest species
 ## J. Assis, E. Fragkopoulou, Frade, D., Neiva, J., A. Oliveira, D. Abecasis, E.A. Serrão
 ##
-## Function to get available data to R environment
+## Imports available data to R environment
 ## https://github.com/jorgeassis
 ##
 ## Example:
