@@ -39,7 +39,6 @@ extractDataset <- function(group,prunned) {
     if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/seagrassesPrunned.zip?raw=true" }
     if( group == "browAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/browAlgaePrunned.zip?raw=true" }
     if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/fanCoralsPrunned.zip?raw=true" }
-    
   }
   if( ! prunned ) { 
     
