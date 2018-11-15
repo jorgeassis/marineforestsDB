@@ -37,8 +37,8 @@ recordsOverLand <- function(records) {
     world <- rgeos::gBuffer(world, byid=TRUE, width=0)
     coast.line <- shapefile(worldcoastLine)
       
-    data.points <- occurrences
-    data.points.geo <- occurrences
+    data.points <- records
+    data.points.geo <- records
     coordinates(data.points.geo) <- c("Lon","Lat")
     crs(data.points.geo) <- crs(world)
     
