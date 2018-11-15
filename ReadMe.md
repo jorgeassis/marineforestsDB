@@ -21,7 +21,7 @@ List of functions available for management and visualization:
 
 Function | Description | Arguments
 ------------ | ------------- | -------------
-extractDataset() | Imports data to R environment | group (character), prunned (logical)
+extractDataset() | Imports data to R environment | group (character), pruned (logical)
 listTaxa() | Lists available taxa | --
 listData() | Lists data available in a dynamic table | data (character), taxa (character), status (character)
 listDataMap() | Lists data available in a map | data (character), taxa (character), status (character),radius (integer), color (character), zoom (integer)
