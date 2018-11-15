@@ -5,7 +5,7 @@
 ## A fine-tuned global distribution dataset of marine forest species
 ## J. Assis, E. Fragkopoulou, Frade, D., Neiva, J., A. Oliveira, D. Abecasis, E.A. Serrão
 ##
-## List data available in a dynamic table
+## Exports available data to a text delimited file
 ## https://github.com/jorgeassis
 ##
 ## Example:
