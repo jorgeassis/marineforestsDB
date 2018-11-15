@@ -4,7 +4,7 @@
 ## A fine-tuned global distribution dataset of marine forest species
 ## J. Assis, E. Fragkopoulou, Frade, D., Neiva, J., A. Oliveira, D. Abecasis, E.A. Serrão
 ##
-## Extract Light and Oxygen thresholds
+## Test if records fall on land. If so, determine euclidian distance to closest shoreline.
 ## https://github.com/jorgeassis
 ##
 ## Example:
