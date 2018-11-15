@@ -11,13 +11,13 @@
 ## -----------------------------------------------------------------------------------------------
 ## -----------------------------------------------------------------------------------------------
 
-extractDataset <- function(group,prunned) {
+extractDataset <- function(group,pruned) {
  
   if( missing(group)) { group <- "all" }
-  if( missing(prunned)) { prunned <- FALSE }
+  if( missing(pruned)) { pruned <- FALSE }
   
   if( group != "all" & group != "seagrasses" & group != "browAlgae" & group != "fanCorals") { stop("Group must be 'all' OR 'seagrasses' OR 'browAlgae' OR 'fanCorals'")}
-  if( prunned != TRUE & prunned != FALSE ) { stop("Prunned must be 'TRUE' OR 'FALSE'")}
+  if( pruned != TRUE & pruned != FALSE ) { stop("Pruned must be 'TRUE' OR 'FALSE'")}
   
   options(warn=-1)
   
@@ -32,14 +32,14 @@ extractDataset <- function(group,prunned) {
   
   options(warn=0)
   
-  if( prunned ) { 
+  if( pruned ) { 
     
-    if( group == "all" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/allPrunned.zip?raw=true" }
-    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/seagrassesPrunned.zip?raw=true" }
-    if( group == "browAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/browAlgaePrunned.zip?raw=true" }
-    if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/fanCoralsPrunned.zip?raw=true" }
+    if( group == "all" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/allPruned.zip?raw=true" }
+    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/seagrassesPruned.zip?raw=true" }
+    if( group == "browAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/browAlgaePruned.zip?raw=true" }
+    if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/fanCoralsPruned.zip?raw=true" }
   }
-  if( ! prunned ) { 
+  if( ! pruned ) { 
     
     if( group == "all" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/all.zip?raw=true" }
     if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/seagrasses.zip?raw=true" }
