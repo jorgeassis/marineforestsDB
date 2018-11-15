@@ -2,8 +2,6 @@
 
 J. Assis, E. Fragkopoulou, Frade, D., Neiva, J., A. Oliveira, D. Abecasis, E.A. Serrão
 
-[PRIVATE]
-
 ### Abstract
 
 Species distribution records are a prerequisite to follow climate-induced range shifts across space and time, yet, data collection can be costly and time consuming. Synthesizing information from various sources, such as peer-reviewed literature, herbaria, repositories and citizen science is challenging, as data are scattered, may comprise thematic and taxonomic errors and there are no standardized formats to enable interoperability. 
