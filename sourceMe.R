@@ -224,6 +224,15 @@ exportData <- function(data,taxa,status,file) {
 
 # ------------------------------------------------
 
-
+listTaxa <- function() {
+  
+  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/listOfTaxa.csv"
+  
+  download.file(file.to.download,destfile="MFTempFile.zip")
+  myData <- read.csv("MFTempFile.zip")
+  file.remove("MFTempFile.zip")
+  return(myData)
+ 
+ }
 
 # ------------------------------------------------
