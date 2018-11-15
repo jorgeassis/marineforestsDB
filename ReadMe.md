@@ -29,7 +29,7 @@ function() | Listing data in a table | Layercodes (character)
 function() | Listing data in a map | Layercodes (character)
 function() | Exporting data to file | Layercodes (character)
 
-<br><br>
+<br>
 
 Example [1]
 <br>
@@ -37,7 +37,7 @@ dataset <- extractDataset("fanCorals",TRUE)
 listData(dataset,taxa="Paramuricea clavata",status="accepted")
 listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=2,color="Black",zoom=2)
 
-<br><br>
+<br>
 
 Example [2]
 <br>
