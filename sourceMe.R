@@ -1,4 +1,16 @@
 
+## -----------------------------------------------------------------------------------------------
+## -----------------------------------------------------------------------------------------------
+##
+## A fine-tuned global distribution dataset of marine forest species
+## J. Assis, E. Fragkopoulou, Frade, D., Neiva, J., A. Oliveira, D. Abecasis, E.A. Serrão
+##
+## Set of functions in R language to facilitate extraction, listing and visualization of occurrence records. 
+## https://github.com/jorgeassis
+##
+## -----------------------------------------------------------------------------------------------
+## -----------------------------------------------------------------------------------------------
+
 extractDataset <- function(group,prunned) {
  
   if( missing(group)) { group <- "all") }
