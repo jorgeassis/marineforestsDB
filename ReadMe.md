@@ -21,11 +21,10 @@ List of functions available for management and visualization:
 
 Function | Description | Arguments
 ------------ | ------------- | -------------
-function() | Importing data to R environment | Datasets (character) (logical); (default)
-function() | Subsetting data | Layercodes (character)
-function() | Listing data in a table | Layercodes (character)
-function() | Listing data in a map | Layercodes (character)
-function() | Exporting data to file | Layercodes (character)
+extractDataset() | Imports data to R environment | group (character), prunned (logical)
+listData() | Lists data available in a dynamic table | data (character), taxa (character), status (character)
+listDataMap() | Lists data available in a map | data (character), taxa (character), status (character),radius (integer), color (character), zoom (integer)
+exportData() | Exports available data to a text delimited file | data (character), taxa (character), status (character), file (character)
 
 <br>
 Example [1]
