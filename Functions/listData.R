@@ -15,7 +15,7 @@
 ## -----------------------------------------------------------------------------------------------
 
 
-listData <- function(path,taxa,status) {
+listData <- function(data,taxa,status) {
   
   if( missing(taxa)) { taxa <- NULL }
   if( missing(status)) { status <- NULL }
