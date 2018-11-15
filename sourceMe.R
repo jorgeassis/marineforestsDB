@@ -11,12 +11,13 @@
 ## -----------------------------------------------------------------------------------------------
 ## -----------------------------------------------------------------------------------------------
 
+
 extractDataset <- function(group,prunned) {
  
-  if( missing(group)) { group <- "all") }
+  if( missing(group)) { group <- "all" }
   if( missing(prunned)) { prunned <- FALSE }
   
-  if( group != "all" & group != "seagrasses" & group != "browAlgae" & group != "fanCorals" & ) { stop("Group must be 'all' OR 'seagrasses' OR 'browAlgae' OR 'fanCorals'")}
+  if( group != "all" & group != "seagrasses" & group != "browAlgae" & group != "fanCorals") { stop("Group must be 'all' OR 'seagrasses' OR 'browAlgae' OR 'fanCorals'")}
   if( prunned != TRUE & prunned != FALSE ) { stop("Prunned must be 'TRUE' OR 'FALSE'")}
   
   options(warn=-1)
@@ -40,7 +41,7 @@ extractDataset <- function(group,prunned) {
     if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/fanCoralsPrunned.zip?raw=true" }
     
   }
-  if( !prunned ) { 
+  if( ! prunned ) { 
     
     if( group == "all" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/all.zip?raw=true" }
     if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/seagrasses.zip?raw=true" }
