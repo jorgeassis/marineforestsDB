@@ -51,9 +51,9 @@ extractDataset <- function(group,pruned) {
     
   }
   
-  download.file(file.to.download,destfile="MFTempFile.zip")
-  myData <- read_csv("MFTempFile.zip")
-  file.remove("MFTempFile.zip")
+  download.file(file.to.download,destfile=paste0(tempdir(),"/MFTempFile.zip"))
+  myData <- read_csv(paste0(tempdir(),"/MFTempFile.zip"))
+  file.remove(paste0(tempdir(),"/MFTempFile.zip"))
   return(myData)
   
 }
