@@ -10,6 +10,7 @@ To address this gap, we gathered ~1,5 million records of 2166 important marine e
 
 We document the procedure and provide a ready to use dataset, alongside with a set of functions in R language for data management and visualization. 
 
+<br>
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Fig1.png "Figure 1")
 
