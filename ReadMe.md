@@ -30,7 +30,7 @@ listDataMap() | Lists data available in a map | extractDataset object name  (cha
 exportData() | Exports available data to a text delimited file or shapefile (geospatial vector data for geographic information systems) | extractDataset object name (character), taxa (character), status (character), file type (character), file name (character)
 
 <br>
-Example [1]
+**Example**
 <br>
 1. listTaxa()
 2. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
@@ -38,7 +38,7 @@ Example [1]
 4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=2,color="Black",zoom=2)<br>
 5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="csv",file="myfile.csv")
 <br><br>
-Example [2]
+**Example**
 <br>
 1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
 2. listData(dataset)<br>
