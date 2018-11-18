@@ -138,9 +138,7 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
                         color = color , 
                         stroke = FALSE, 
                         fillOpacity = 0.5 )
-  
-  if(zoom.define) {   setView(m,lng=mean(data[,"decimalLongitude"]),lat=mean(data[,"decimalLatitude"]),zoom=zoom )  }
-  
+    
   options(warn=0)
   
   return(m)
