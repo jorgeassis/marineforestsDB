@@ -11,6 +11,10 @@ To address this gap, we gathered ~1,5 million records of 2166 important marine e
 We document the procedure and provide a ready to use dataset, alongside with a set of functions in R language for data management and visualization. 
 
 
+![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Fig1.png "Figure 1")
+
+
+
 ### R functions for data management and visualization
 
 We provide a set of functions in R language to facilitate extraction, listing and visualization of occurrence records. The functions can be easily installed by entering the following line into the command prompt:
