@@ -12,8 +12,9 @@ We document the procedure and provide a ready to use dataset, alongside with a s
 
 <br>
 
-![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Fig1.png "Figure 1")
+![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Figure1.png "Figure 1")
 
+Figure. (a) Spatial distribution of marine forest records, with red and gray circles depicting pruned and unpruned records, respectively. Pruned records of (b) fan corals (subclass Octocorallia), (c) brown algae (orders Laminariales, Tilopteridales and Fucales) and (d) seagrasses (families Zosteraceae, Cymodoceaceae and Posidoniaceae).
 
 
 ### R functions for data management and visualization
