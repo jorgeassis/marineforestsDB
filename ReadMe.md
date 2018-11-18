@@ -25,9 +25,9 @@ Function | Description | Arguments
 ------------ | ------------- | -------------
 extractDataset() | Imports data to R environment | group (character), pruned (logical)
 listTaxa() | Lists available taxa | --
-listData() | Lists data available in a dynamic table | data (character), taxa (character), status (character)
-listDataMap() | Lists data available in a map | data (character), taxa (character), status (character),radius (integer), color (character), zoom (integer)
-exportData() | Exports available data to a text delimited file | data (character), taxa (character), status (character), file (character)
+listData() | Lists data available in a dynamic table | extractDataset object name  (character), taxa (character), status (character)
+listDataMap() | Lists data available in a map | extractDataset object name  (character), taxa (character), status (character),radius (integer), color (character), zoom (integer)
+exportData() | Exports available data to a text delimited file or shapefile (geospatial vector data for geographic information systems) | extractDataset object name (character), taxa (character), status (character), file type (character), file name (character)
 
 <br>
 Example [1]
