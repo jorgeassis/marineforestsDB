@@ -36,11 +36,11 @@ Example [1]
 2. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
 3. listData(dataset,taxa="Paramuricea clavata",status="accepted")<br>
 4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=2,color="Black",zoom=2)<br>
-5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",file="myfile.csv")
+5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="csv",file="myfile.csv")
 <br><br>
 Example [2]
 <br>
 1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
 2. listData(dataset)<br>
 3. listDataMap(dataset,radius=2,color="Black",zoom=2)<br>
-4. exportData(dataset,file="myfile.csv")
+4. exportData(dataset,type="shp",file="myfile.csv")
