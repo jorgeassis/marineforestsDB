@@ -12,13 +12,13 @@
 ## -----------------------------------------------------------------------------------------------
 
 extractDataset <- function(group,pruned) {
- 
-  if( missing(group)) { group <- "all" }
-  if( missing(pruned)) { pruned <- FALSE }
   
-  if( group != "all" & group != "seagrasses" & group != "browAlgae" & group != "fanCorals") { stop("Group must be 'all' OR 'seagrasses' OR 'browAlgae' OR 'fanCorals'")}
-  if( pruned != TRUE & pruned != FALSE ) { stop("Pruned must be 'TRUE' OR 'FALSE'")}
+  if( missing(group)) { stop("A group must be especifyed (e.g., fanCorals, browAlgae or seagrasses)") }
+  if( missing(pruned)) { stop("Pruned argument must be especifyed (e.g., TRUE or FALSE )") }
   
+  if( group != "seagrasses" & group != "browAlgae" & group != "fanCorals") { stop("A valid group must be especifyed (e.g., fanCorals, browAlgae or seagrasses)")}
+  if( pruned != TRUE & pruned != FALSE ) { stop("Pruned argument must be TRUE or FALSE")}
+
   options(warn=-1)
   
   packages.to.use <- c("readr","utils")
@@ -34,17 +34,15 @@ extractDataset <- function(group,pruned) {
   
   if( pruned ) { 
     
-    if( group == "all" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/allPruned.zip?raw=true" }
-    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/seagrassesPruned.zip?raw=true" }
-    if( group == "browAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/browAlgaePruned.zip?raw=true" }
-    if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/fanCoralsPruned.zip?raw=true" }
+    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrassesPruned.csv.zip?raw=true" }
+    if( group == "browAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgaePruned.csv.zip?raw=true" }
+    if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataFanCoralsPruned.csv.zip?raw=true" }
   }
   if( ! pruned ) { 
     
-    if( group == "all" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/all.zip?raw=true" }
-    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/seagrasses.zip?raw=true" }
-    if( group == "browAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/browAlgae.zip?raw=true" }
-    if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/fanCorals.zip?raw=true" }
+    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrasses.csv.zip?raw=true" }
+    if( group == "browAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgae.csv.zip?raw=true" }
+    if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataFanCorals.csv.zip?raw=true" }
     
   }
   
@@ -225,14 +223,40 @@ exportData <- function(data,taxa,status,file) {
 # ------------------------------------------------
 
 listTaxa <- function() {
+
+  options(warn=-1)
   
-  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/listOfTaxa.csv"
+  packages.to.use <- c("shiny")
   
-  download.file(file.to.download,destfile="MFTempFile.zip")
-  myData <- read.csv("MFTempFile.zip")
-  file.remove("MFTempFile.zip")
-  return(myData)
- 
- }
+  for(package in packages.to.use) {
+    if( ! package %in% rownames(installed.packages()) ) { install.packages( package ) }
+    if( package == "robis" & ! "robis" %in% rownames(installed.packages()) ) { devtools::install_github("iobis/robis") }
+    if( ! package %in% rownames(installed.packages()) ) { stop("Error on package instalation") }
+    library(package, character.only = TRUE)
+  }
+  
+  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/listOfTaxa.csv?raw=true"
+  
+  download.file(file.to.download,destfile=paste0(tempdir(),"/MFTempFileLTaxa.csv"))
+  data <- read.table(file=paste0(tempdir(),"/MFTempFileLTaxa.csv"),header=TRUE,sep=";")
+  file.remove(paste0(tempdir(),"/MFTempFileLTaxa.csv"))
+  
+  mydata <- as.matrix(data)
+  
+  packages.to.use <- c("shiny")
+  
+  options(warn=0)
+  print(
+  shinyApp(
+    ui = fluidPage(
+      title = "Examples of DataTables",
+      DT::dataTableOutput('tbl')),
+    server = function(input, output) {
+      output$tbl = DT::renderDataTable(
+        mydata, options = list( pageLength = 10, lengthMenu = c(10, 50, 100, 1000)) ) # , filter = 'top'
+    } )
+  )
+
+}
 
 # ------------------------------------------------
