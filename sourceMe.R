@@ -194,10 +194,9 @@ listData <- function(data,taxa,status) {
 
 # ------------------------------------------------
 
-
 exportData <- function(data,taxa,status,type,file) {
   
-  packages.to.use <- c("sp")
+  packages.to.use <- c("sp","raster","rgdal")
   
   for(package in packages.to.use) {
     if( ! package %in% rownames(installed.packages()) ) { install.packages( package ) }
@@ -229,18 +228,17 @@ exportData <- function(data,taxa,status,type,file) {
   }
   
   if(type == "csv") {
-    write.csv(data,file=file,sep = "\t", na = "NA", dec = ".", row.names = FALSE, col.names = TRUE)
+    write.table(data,file=file, na = "NA", dec = ".", row.names = FALSE, col.names = TRUE)
     
   }
   if(type == "shp") {
     
     main.results.sp <- SpatialPointsDataFrame(data.frame(Lon=as.numeric(as.character(data$decimalLongitude)),Lat=as.numeric(as.character(data$decimalLatitude))),data)   
     crs(main.results.sp) <- "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0" 
-    writeOGR(main.results.sp, "/", file, driver="ESRI Shapefile",overwrite_layer=TRUE)
+    writeOGR(main.results.sp, ".", file, driver="ESRI Shapefile",overwrite_layer=TRUE)
     
   }
 }
-
 
 # ------------------------------------------------
 
