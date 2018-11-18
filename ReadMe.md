@@ -24,8 +24,10 @@ We provide a set of functions in R language to facilitate extraction, listing an
 source("https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/sourceMe.R")
 
 <br>
+<br>
 List of functions available for management and visualization:
-<br><br>
+<br>
+<br>
 
 Function | Description | Arguments
 ------------ | ------------- | -------------
