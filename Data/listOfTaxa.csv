@@ -1,4 +1,4 @@
-﻿aphiaID;scientificName;authority;status;taxKingdom;taxPhylum;taxClass;taxOrder;taxFamily;taxGenus;acceptedaphiaID;acceptedscientificName
+aphiaID;scientificName;authority;status;taxKingdom;taxPhylum;taxClass;taxOrder;taxFamily;taxGenus;acceptedaphiaID;acceptedscientificName
 125387;Paramuricea clavata;(Risso, 1826);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Plexauridae;Paramuricea;125387;Paramuricea clavata
 520678;Calcigorgia beringi;(Nutting, 1912);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Acanthogorgiidae;Calcigorgia;520678;Calcigorgia beringi
 125416;Corallium rubrum;(Linnaeus, 1758);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Coralliidae;Corallium;125416;Corallium rubrum
@@ -186,7 +186,7 @@
 207409;Tubipora musica;Linnaeus, 1758;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Tubiporidae;Tubipora;207409;Tubipora musica
 288639;Cladiella subtilis;Tixier-Durivault, 1970;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Cladiella;288639;Cladiella subtilis
 286350;Bebryce studeri;Whitelegge, 1897;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Plexauridae;Bebryce;286350;Bebryce studeri
-289235;Cavernulina grandiflora;d'Hondt, 1984;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Veretillidae;Cavernulina;289235;Cavernulina grandiflora
+289235;Cavernulina grandiflora;d Hondt, 1984;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Veretillidae;Cavernulina;289235;Cavernulina grandiflora
 286168;Nicella flabellata;(Whitelegge, 1897);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Ellisellidae;Nicella;286168;Nicella flabellata
 287968;Acanthomuricea mberea;Grasshoff, 1999;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Plexauridae;Acanthomuricea;287968;Acanthomuricea mberea
 289186;Junceella delicata;Grasshoff, 1999;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Ellisellidae;Junceella;289186;Junceella delicata
@@ -195,7 +195,7 @@
 209609;Cladiella pachyclados;(Klunzinger, 1877);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Cladiella;209609;Cladiella pachyclados
 209976;Sinularia mayi;Lüttschwager, 1915;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Sinularia;209976;Sinularia mayi
 209978;Sinularia fungoides;Thomson & Henderson, 1906;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Sinularia;209978;Sinularia fungoides
-286644;Pteroeides bestae;d'Hondt, 1984;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Pennatulidae;Pteroeides;286644;Pteroeides bestae
+286644;Pteroeides bestae;d Hondt, 1984;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Pennatulidae;Pteroeides;286644;Pteroeides bestae
 288121;Umbellulifera striata;(Thomson & Henderson, 1905);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Nephtheidae;Umbellulifera;288121;Umbellulifera striata
 288493;Sinularia agilis;(Tixier-Durivault, 1970);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Sinularia;288493;Sinularia agilis
 288500;Sinularia capitalis;(Pratt, 1903);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Sinularia;288500;Sinularia capitalis
@@ -271,7 +271,7 @@
 290211;Isis hippuris;Linnaeus, 1758;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Isididae;Isis;290211;Isis hippuris
 517651;Clavularia armata;Thomson, 1927;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Clavulariidae;Clavularia;517651;Clavularia armata
 286072;Acanthogorgia meganopla;Grasshoff, 1999;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Acanthogorgiidae;Acanthogorgia;286072;Acanthogorgia meganopla
-286658;Pteroeides laboutei;d'Hondt, 1984;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Pennatulidae;Pteroeides;286658;Pteroeides laboutei
+286658;Pteroeides laboutei;d Hondt, 1984;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Pennatulidae;Pteroeides;286658;Pteroeides laboutei
 288521;Sinularia flexibilis;(Quoy & Gaimard, 1833);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Sinularia;288521;Sinularia flexibilis
 288772;Lobophytum borbonicum;von Marenzeller, 1886;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Lobophytum;288772;Lobophytum borbonicum
 291984;Stereonephthya irregulare;Tixier-Durivault, 1970;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Nephtheidae;Stereonephthya;291984;Stereonephthya irregulare
@@ -283,7 +283,7 @@
 209972;Sinularia gardineri;(Pratt, 1903);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Sinularia;209972;Sinularia gardineri
 288039;Lemnalia bournei;Roxas, 1933;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Nephtheidae;Lemnalia;288039;Lemnalia bournei
 290603;Paracanthoisis richerdeforgesi;(Bayer & Stefani, 1987);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Isididae;Paracanthoisis;290603;Paracanthoisis richerdeforgesi
-291199;Tesseranthelia chesterfieldensis;d'Hondt, 1986;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Clavulariidae;Tesseranthelia;291199;Tesseranthelia chesterfieldensis
+291199;Tesseranthelia chesterfieldensis;d Hondt, 1986;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Clavulariidae;Tesseranthelia;291199;Tesseranthelia chesterfieldensis
 290720;Perissogorgia monile;Bayer & Stefani, 1989;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Primnoidae;Perissogorgia;290720;Perissogorgia monile
 209612;Cladiella latissima;(Tixier-Durivault, 1944);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Cladiella;209612;Cladiella latissima
 290604;Paracanthoisis simplex;(Tixier-Durivault, 1970);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Isididae;Paracanthoisis;290604;Paracanthoisis simplex
@@ -564,7 +564,7 @@
 411555;Alcyoniina; ;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea; ; ;411555;Alcyoniina
 267453;Gorgonia;Linnaeus, 1758;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Gorgoniidae;Gorgonia;267453;Gorgonia
 146762;Nephtheidae;Gray, 1862;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Nephtheidae; ;146762;Nephtheidae
-267770;Pseudoanthomastus;Tixier-Durivault & d'Hondt, 1974;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Pseudoanthomastus;267770;Pseudoanthomastus
+267770;Pseudoanthomastus;Tixier-Durivault & d Hondt, 1974;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Pseudoanthomastus;267770;Pseudoanthomastus
 286032;Telestula batoni;Weinberg, 1990;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Clavulariidae;Telestula;286032;Telestula batoni
 289519;Bellonella variabilis;(Studer, 1891);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Bellonella;289519;Bellonella variabilis
 267790;Pterogorgia;Ehrenberg, 1834;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Gorgoniidae;Pterogorgia;267790;Pterogorgia
@@ -593,7 +593,7 @@
 146943;Duva florida;(Rathke, 1806);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Nephtheidae;Duva;146943;Duva florida
 158266;Clavularia modesta;(Verrill, 1874);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Clavulariidae;Clavularia;158266;Clavularia modesta
 128511;Kophobelemnon macrospinosum;Thomson, 1927;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Kophobelemnidae;Kophobelemnon;128511;Kophobelemnon macrospinosum
-125393;Placogorgia graciosa;(Tixier-Durivault & d'Hondt, 1975);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Plexauridae;Placogorgia;125393;Placogorgia graciosa
+125393;Placogorgia graciosa;(Tixier-Durivault & d Hondt, 1975);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Plexauridae;Placogorgia;125393;Placogorgia graciosa
 128505;Anthoptilum murrayi;Kölliker, 1880;accepted;Animalia;Cnidaria;Anthozoa;Pennatulacea;Anthoptilidae;Anthoptilum;128505;Anthoptilum murrayi
 286600;Paragorgia alisonae;Sánchez, 2005;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Paragorgiidae;Paragorgia;286600;Paragorgia alisonae
 1036547;Swiftia simplex;(Nutting, 1909);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Plexauridae;Swiftia;1036547;Swiftia simplex
@@ -715,7 +715,7 @@
 724715;Heteropolypus ritteri;(Nutting, 1909);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Heteropolypus;724715;Heteropolypus ritteri
 158261;Anthomastus agassizii;Verrill, 1922;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Anthomastus;158261;Anthomastus agassizii
 345446;Heteropolypus;Tixier-Durivault, 1964;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Heteropolypus;345446;Heteropolypus
-286021;Anthomastus tahinodus;d'Hondt, 1988;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Anthomastus;286021;Anthomastus tahinodus
+286021;Anthomastus tahinodus;d Hondt, 1988;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Anthomastus;286021;Anthomastus tahinodus
 724714;Heteropolypus japonicus;(Nutting, 1912);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Heteropolypus;724714;Heteropolypus japonicus
 286015;Anthomastus granulosus;Kükenthal, 1910;accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Anthomastus;286015;Anthomastus granulosus
 724712;Pseudoanthomastus fisheri;(Bayer, 1952);accepted;Animalia;Cnidaria;Anthozoa;Alcyonacea;Alcyoniidae;Pseudoanthomastus;724712;Pseudoanthomastus fisheri
@@ -1798,7 +1798,7 @@
 503432;Laminaria gunneri;Foslie, 1884;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Laminaria;503432;Laminaria gunneri
 144196;Undaria;Suringar, 1873;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Alariaceae;Undaria;144196;Undaria
 501948;Agarum clathrus;(S.G.Gmelin) Greville, 1830;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Costariaceae;Agarum;501948;Agarum clathrus
-707777;Saccharina complanata;(Setchell & N.L.Gardner) Gabrielson, Lindstrom & O'Kelly, 2012;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Saccharina;707777;Saccharina complanata
+707777;Saccharina complanata;(Setchell & N.L.Gardner) Gabrielson, Lindstrom & O Kelly, 2012;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Saccharina;707777;Saccharina complanata
 369575;Dictyoneurum;Ruprecht, 1852;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Costariaceae;Dictyoneurum;369575;Dictyoneurum
 369527;Costaria;Greville, 1830;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Costariaceae;Costaria;369527;Costaria
 370002;Pelagophycus;Areschoug, 1881;accepted;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Pelagophycus;370002;Pelagophycus
