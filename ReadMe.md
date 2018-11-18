@@ -32,14 +32,15 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 <br>
 Example [1]
 <br>
-dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
-listData(dataset,taxa="Paramuricea clavata",status="accepted")<br>
-listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=2,color="Black",zoom=2)<br>
-exportData(dataset,taxa="Paramuricea clavata",status="accepted",file="myfile.csv")
+1. listTaxa()
+2. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
+3. listData(dataset,taxa="Paramuricea clavata",status="accepted")<br>
+4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=2,color="Black",zoom=2)<br>
+5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",file="myfile.csv")
 <br><br>
 Example [2]
 <br>
-dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
-listData(dataset)<br>
-listDataMap(dataset,radius=2,color="Black",zoom=2)<br>
-exportData(dataset,file="myfile.csv")
+1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
+2. listData(dataset)<br>
+3. listDataMap(dataset,radius=2,color="Black",zoom=2)<br>
+4. exportData(dataset,file="myfile.csv")
