@@ -30,7 +30,7 @@ listDataMap() | Lists data available in a map | extractDataset object name  (cha
 exportData() | Exports available data to a text delimited file or shapefile (geospatial vector data for geographic information systems) | extractDataset object name (character), taxa (character), status (character), file type (character), file name (character)
 
 
-
+<br>
 
 **Example**
 
