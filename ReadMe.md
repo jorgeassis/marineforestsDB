@@ -55,3 +55,8 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 2. listData(dataset)<br>
 3. listDataMap(dataset,radius=2,color="Black",zoom=2)<br>
 4. exportData(dataset,type="csv",file="myfile.csv")
+
+
+### License and credits 
+
+Except where otherwise noted, the content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
