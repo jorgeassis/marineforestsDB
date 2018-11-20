@@ -40,7 +40,7 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 
 <br>
 
-### Examples
+### Example of main functions use
 
 1. listTaxa()
 2. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
