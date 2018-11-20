@@ -48,6 +48,8 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=3,color="Black",zoom=4)<br>
 5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="shp",file="myfile")
 
+<br>
+
 1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
 2. listData(dataset)<br>
 3. listDataMap(dataset,radius=2,color="Black",zoom=2)<br>
