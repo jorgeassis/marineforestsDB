@@ -38,18 +38,15 @@ listData() | Lists data available in a dynamic table | extractDataset object nam
 listDataMap() | Lists data available in a map | extractDataset object name  (character), taxa (character), status (character),radius (integer), color (character), zoom (integer)
 exportData() | Exports available data to a text delimited file or shapefile (geospatial vector data for geographic information systems) | extractDataset object name (character), taxa (character), status (character), file type (character), file name (character)
 
-
 <br>
 
-**Example**
+### Examples
 
 1. listTaxa()
 2. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
 3. listData(dataset,taxa="Paramuricea clavata",status="accepted")<br>
 4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=3,color="Black",zoom=4)<br>
 5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="shp",file="myfile")
-
-**Example**
 
 1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
 2. listData(dataset)<br>
