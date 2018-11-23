@@ -54,8 +54,14 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
 2. getTaxonomyWorms("Paramuricea clavata")<br>
 3. listData(dataset)<br>
-4. listDataMap(dataset,taxa="Paramuricea clavata",radius=2,color="Black",zoom=2)<br>
-5. exportData(dataset,taxa="Paramuricea clavata",type="csv",file="myfile.csv")
+4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=2,color="Black",zoom=2)<br>
+5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="csv",file="myfile.csv")
+
+<br>
+
+1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
+2. getTaxonomyWorms("Paramuricea clavata")<br>
+3. myDataFrame <- subsetDataset(dataset,taxa="Paramuricea clavata",status="accepted")
 
 <br>
 
