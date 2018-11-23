@@ -9,7 +9,7 @@
 ##
 ## Example:
 ## addressName <- "Universidade do Algarve, Campus de Gambelas, 8005-139 Faro"
-## getTaxonomyWorms(addressName)
+## getCoordinates(addressName)
 ##
 ## -----------------------------------------------------------------------------------------------
 ## -----------------------------------------------------------------------------------------------

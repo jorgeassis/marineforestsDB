@@ -16,7 +16,7 @@
 extractDataset <- function(group,pruned) {
   
   if( missing(group)) { stop("A group must be especifyed (e.g., fanCorals, brownAlgae or seagrasses)") }
-  if( missing(pruned)) { stop("Pruned argument must be especifyed (e.g., TRUE or FALSE )") }
+  if( missing(pruned)) { stop("Pruned argument must be specifyed (e.g., TRUE or FALSE )") }
   
   if( group != "seagrasses" & group != "brownAlgae" & group != "fanCorals") { stop("A valid group must be especifyed (e.g., fanCorals, browAlgae or seagrasses)")}
   if( pruned != TRUE & pruned != FALSE ) { stop("Pruned argument must be TRUE or FALSE")}
@@ -39,18 +39,32 @@ extractDataset <- function(group,pruned) {
     if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrassesPruned.csv.zip?raw=true" }
     if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgaePruned.csv.zip?raw=true" }
     if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataFanCoralsPruned.csv.zip?raw=true" }
+  
+    if( group == "seagrasses" ) {  file.name <- "dataSeagrassesPruned.csv" }
+    if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgaePruned.csv" }
+    if( group == "fanCorals" ) {  file.name <- "dataFanCoralsPruned.csv" }
+    
+  
   }
+  
   if( ! pruned ) { 
     
     if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrasses.csv.zip?raw=true" }
     if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgae.csv.zip?raw=true" }
     if( group == "fanCorals" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataFanCorals.csv.zip?raw=true" }
     
+    if( group == "seagrasses" ) {  file.name <- "dataSeagrasses.csv" }
+    if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgae.csv" }
+    if( group == "fanCorals" ) {  file.name <- "dataFanCorals.csv" }
+    
   }
   
   download.file(file.to.download,destfile=paste0(tempdir(),"/MFTempFile.zip"))
-  myData <- read_csv(paste0(tempdir(),"/MFTempFile.zip"))
+  unzip(paste0(tempdir(),"/MFTempFile.zip"),exdir=tempdir(),overwrite=TRUE)
+  
+  myData <- read.csv(paste0(tempdir(),"/",file.name))
   file.remove(paste0(tempdir(),"/MFTempFile.zip"))
+  file.remove(paste0(tempdir(),"/",file.name))
   return(myData)
   
 }

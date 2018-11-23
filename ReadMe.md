@@ -1,5 +1,3 @@
-YEEE
-
 # A fine-tuned global distribution dataset of marine forests
 
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
@@ -45,17 +43,19 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 ### Example of main functions use
 
 1. listTaxa()
-2. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
-3. listData(dataset,taxa="Paramuricea clavata",status="accepted")<br>
-4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=3,color="Black",zoom=4)<br>
-5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="shp",file="myfile")
+2. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
+3. getTaxonomyWorms("Zostera marina")$acceptedName<br>
+4. listData(dataset,taxa="Zostera (Zostera) marina",status="accepted")<br>
+5. listDataMap(dataset,taxa="Zostera (Zostera) marina",status="accepted",radius=3,color="Black",zoom=4)<br>
+6. exportData(dataset,taxa="Zostera (Zostera) marina",status="accepted",type="shp",file="myfile")
 
 <br>
 
 1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
-2. listData(dataset)<br>
-3. listDataMap(dataset,radius=2,color="Black",zoom=2)<br>
-4. exportData(dataset,type="csv",file="myfile.csv")
+2. getTaxonomyWorms("Paramuricea clavata")$acceptedName<br>
+3. listData(dataset)<br>
+4. listDataMap(dataset,taxa="Paramuricea clavata",radius=2,color="Black",zoom=2)<br>
+5. exportData(dataset,taxa="Paramuricea clavata",type="csv",file="myfile.csv")
 
 <br>
 

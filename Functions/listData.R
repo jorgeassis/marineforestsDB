@@ -20,7 +20,7 @@ listData <- function(data,taxa,status) {
   if( missing(taxa)) { taxa <- NULL }
   if( missing(status)) { status <- NULL }
   
-  packages.to.use <- c("shiny")
+  packages.to.use <- c("shiny","DT")
   
   options(warn=-1)
   
