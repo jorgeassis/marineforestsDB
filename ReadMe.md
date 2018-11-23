@@ -44,7 +44,7 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 
 1. listTaxa()
 2. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
-3. getTaxonomyWorms("Zostera marina")$acceptedName<br>
+3. getTaxonomyWorms("Zostera marina")<br>
 4. listData(dataset,taxa="Zostera (Zostera) marina",status="accepted")<br>
 5. listDataMap(dataset,taxa="Zostera (Zostera) marina",status="accepted",radius=3,color="Black",zoom=4)<br>
 6. exportData(dataset,taxa="Zostera (Zostera) marina",status="accepted",type="shp",file="myfile")
@@ -52,7 +52,7 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 <br>
 
 1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
-2. getTaxonomyWorms("Paramuricea clavata")$acceptedName<br>
+2. getTaxonomyWorms("Paramuricea clavata")<br>
 3. listData(dataset)<br>
 4. listDataMap(dataset,taxa="Paramuricea clavata",radius=2,color="Black",zoom=2)<br>
 5. exportData(dataset,taxa="Paramuricea clavata",type="csv",file="myfile.csv")
