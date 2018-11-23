@@ -22,7 +22,7 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
   if( missing(color)) { color <- "black" }
   if( missing(zoom)) { zoom.define <- FALSE }
   if( missing(taxa)) { taxa <- NULL }
-  if( missing(status)) { status <- NULL }
+  if( missing(status)) { status <- "accepted" }
   
   packages.to.use <- c("shiny","leaflet")
   
@@ -35,23 +35,19 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
     library(package, character.only = TRUE)
   }
   
-  if( ! is.null(status) ) {  
+  if( status == "accepted" ) { 
     
-    if( status == "accepted" ) { 
-      
-      if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      
-      data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
-      
-      }
-    if( status != "accepted" ) { 
-      
-      if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-  
-      data <- data[ which(data$speciesName == taxa) ,] 
+    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    
+    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
     
     }
+  if( status != "accepted" ) { 
     
+    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+
+    data <- data[ which(data$speciesName == taxa) ,] 
+  
   }
   
   species.name <- unlist(data$speciesName)

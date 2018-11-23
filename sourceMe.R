@@ -69,6 +69,30 @@ extractDataset <- function(group,pruned) {
 
 # ------------------------------------------------
 
+subsetDataset <- function(data,taxa,status) {
+  
+  if( missing(data)) { stop("A dataset must be provided. Use extractDataset() function") }
+  if( missing(taxa)) { stop("A taxa name must be provided") }
+  if( missing(status)) { status <- "accepted" }
+  
+  if( status == "accepted" ) { 
+    
+    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+  }
+  if( status != "accepted" ) { 
+    
+    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$speciesName == taxa) ,] 
+    
+  }
+
+  return(data)
+  
+}
+
+# ------------------------------------------------
+
 listDataMap <- function(data,taxa,status,radius,color,zoom) {
   
   zoom.define <- TRUE
@@ -77,9 +101,9 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
   if( missing(color)) { color <- "black" }
   if( missing(zoom)) { zoom.define <- FALSE }
   if( missing(taxa)) { taxa <- NULL }
-  if( missing(status)) { status <- NULL }
-
-  packages.to.use <- c("shiny","leaflet","DT")
+  if( missing(status)) { status <- "accepted" }
+  
+  packages.to.use <- c("shiny","leaflet")
   
   options(warn=-1)
   
@@ -90,22 +114,18 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
     library(package, character.only = TRUE)
   }
   
-  if( ! is.null(status) ) {  
+  if( status == "accepted" ) { 
     
-    if( status == "accepted" ) { 
-      
-      if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      
-      data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
-      
-      }
-    if( status != "accepted" ) { 
-      
-      if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-  
-      data <- data[ which(data$speciesName == taxa) ,] 
+    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
     
-    }
+    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+    
+  }
+  if( status != "accepted" ) { 
+    
+    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    
+    data <- data[ which(data$speciesName == taxa) ,] 
     
   }
   
@@ -121,15 +141,15 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
   temp.record.reference.id <- data$originalSource
   
   popup = paste0(
-                 paste0("Species: <i>", species.name,"</i><br>"),
-                 paste0("aphiaID: ", species.wormsid,"<br>"),
-                 paste0("Status: ", species.status,"<br>"),
-                 paste0("<hr noshade size='1'/>"),
-                 ifelse( temp.record.site != "" & ! is.na(temp.record.site), paste0("Site: ", temp.record.site , " (",temp.record.country ,")","<br>"), as.character("") ),
-                 ifelse( !is.na(temp.record.year), paste0("Year: ", temp.record.year , "<br>"), as.character("") ),
-                 ifelse( !is.na(temp.record.depth), paste0("Depth: ", temp.record.depth , "<br>"), as.character("") ),
-                 paste0(temp.record.reference , ": ",temp.record.reference.id ,"","<br>")
-                 
+    paste0("Species: <i>", species.name,"</i><br>"),
+    paste0("aphiaID: ", species.wormsid,"<br>"),
+    paste0("Status: ", species.status,"<br>"),
+    paste0("<hr noshade size='1'/>"),
+    ifelse( temp.record.site != "" & ! is.na(temp.record.site), paste0("Site: ", temp.record.site , " (",temp.record.country ,")","<br>"), as.character("") ),
+    ifelse( !is.na(temp.record.year), paste0("Year: ", temp.record.year , "<br>"), as.character("") ),
+    ifelse( !is.na(temp.record.depth), paste0("Depth: ", temp.record.depth , "<br>"), as.character("") ),
+    paste0(temp.record.reference , ": ",temp.record.reference.id ,"","<br>")
+    
   )
   
   epsg3006 <- leafletCRS(crsClass = "L.Proj.CRS", code = "EPSG:4326",
@@ -152,7 +172,7 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
                         color = color , 
                         stroke = FALSE, 
                         fillOpacity = 0.5 )
-    
+  
   options(warn=0)
   
   return(m)
@@ -164,7 +184,7 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
 listData <- function(data,taxa,status) {
   
   if( missing(taxa)) { taxa <- NULL }
-  if( missing(status)) { status <- NULL }
+  if( missing(status)) { status <- "accepted" }
   
   packages.to.use <- c("shiny","DT")
   
@@ -177,19 +197,15 @@ listData <- function(data,taxa,status) {
     library(package, character.only = TRUE)
   }
   
-  if( ! is.null(status) ) {  
+  if( status == "accepted" ) { 
     
-    if( status == "accepted" ) { 
-      
-      if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
-      }
-    if( status != "accepted" ) { 
-      
-      if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$speciesName == taxa) ,] }
-    
+    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
   }
+  if( status != "accepted" ) { 
+    
+    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$speciesName == taxa) ,] }
   
   options(warn=0)
   
@@ -292,3 +308,62 @@ listTaxa <- function() {
 }
 
 # ------------------------------------------------
+
+
+getTaxonomyWorms <- function(name) {
+  
+  packages.to.use <- "worms"
+  
+  options(warn=-1)
+  
+  for(package in packages.to.use) {
+    if( ! package %in% rownames(installed.packages()) ) { install.packages( package ) }
+    if( ! package %in% rownames(installed.packages()) ) { stop("Error on package instalation") }
+    library(package, character.only = TRUE)
+  }
+  
+  tryCatch( worms.query <- wormsbynames( name , verbose = FALSE )
+            , error=function(e) { } )
+  
+  options(warn=0)
+  
+  if( exists("worms.query") ) { 
+    
+    cat('\n')
+    cat('\n')
+    cat('----------------------------------------------------------------------')
+    cat('\n')
+    cat('Processing taxonomy for', name )
+    cat('\n')
+    cat('\n')
+    cat('\n')
+    
+    return(data.frame(
+      aphiaID = worms.query$AphiaID,
+      name = worms.query$scientificname,
+      authority = worms.query$authority,
+      status = worms.query$status,
+      taxKingdom = worms.query$kingdom,
+      taxPhylum = worms.query$phylum,
+      taxClass = worms.query$class,
+      taxOrder = worms.query$order,
+      taxFamily = worms.query$family,
+      taxGenus = worms.query$genus,
+      revisionByWormsDate = Sys.Date(),
+      acceptedAphiaID = worms.query$valid_AphiaID,
+      acceptedName = worms.query$valid_name
+    ))
+    
+  } else {         
+    
+    cat('\n')
+    cat('\n')
+    cat('----------------------------------------------------------------------')
+    cat('\n')
+    cat('Taxonomy for',name,'not found')
+    cat('\n')
+    cat('\n')
+    cat('\n')
+    
+  }
+}
