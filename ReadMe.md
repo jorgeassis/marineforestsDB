@@ -1,6 +1,6 @@
 # A fine-tuned global distribution dataset of marine forests
 
-J. Assis, E. Fragkopoulou, Frade, D., Neiva, J., A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
+J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
 
 ### Abstract
 
