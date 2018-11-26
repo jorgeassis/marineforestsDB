@@ -8,8 +8,8 @@
 ## https://github.com/jorgeassis
 ##
 ## Example:
-## dataset <- extractDataset("fanCorals",TRUE)
-## subsetDataset(dataset,taxa="Paramuricea clavata",status="accepted")
+## dataset <- extractDataset("brownAlgae",TRUE)
+## subsetDataset(dataset,taxa="Laminaria digitata",status="accepted")
 ##
 ## -----------------------------------------------------------------------------------------------
 ## -----------------------------------------------------------------------------------------------

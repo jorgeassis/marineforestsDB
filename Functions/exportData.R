@@ -9,8 +9,8 @@
 ## https://github.com/jorgeassis
 ##
 ## Example:
-## dataset <- extractDataset("fanCorals",TRUE)
-## exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="shp",file="myfile")
+## dataset <- extractDataset("brownAlgae",TRUE)
+## exportData(dataset,taxa="Laminaria digitata",status="accepted",type="shp",file="myfile")
 ##
 ## -----------------------------------------------------------------------------------------------
 ## -----------------------------------------------------------------------------------------------

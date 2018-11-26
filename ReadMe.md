@@ -43,7 +43,7 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 ### Example of main functions use
 
 1. listTaxa()
-2. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
+2. dataset <- extractDataset("seagrasses",pruned=TRUE)<br>
 3. getTaxonomyWorms("Zostera marina")<br>
 4. listData(dataset,taxa="Zostera (Zostera) marina",status="accepted")<br>
 5. listDataMap(dataset,taxa="Zostera (Zostera) marina",status="accepted",radius=3,color="Black",zoom=4)<br>
@@ -51,17 +51,17 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 
 <br>
 
-1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
-2. getTaxonomyWorms("Paramuricea clavata")<br>
+1. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
+2. getTaxonomyWorms("Laminaria digitata")<br>
 3. listData(dataset)<br>
-4. listDataMap(dataset,taxa="Paramuricea clavata",status="accepted",radius=2,color="Black",zoom=2)<br>
-5. exportData(dataset,taxa="Paramuricea clavata",status="accepted",type="csv",file="myfile.csv")
+4. listDataMap(dataset,taxa="Laminaria digitata",status="accepted",radius=2,color="Black",zoom=2)<br>
+5. exportData(dataset,taxa="Laminaria digitata",status="accepted",type="csv",file="myfile.csv")
 
 <br>
 
-1. dataset <- extractDataset("fanCorals",pruned=TRUE)<br>
-2. getTaxonomyWorms("Paramuricea clavata")<br>
-3. myDataFrame <- subsetDataset(dataset,taxa="Paramuricea clavata",status="accepted")
+1. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
+2. getTaxonomyWorms("Laminaria digitata")<br>
+3. myDataFrame <- subsetDataset(dataset,taxa="Laminaria digitata",status="accepted")
 
 <br>
 
