@@ -4,12 +4,11 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 
 ### Abstract
 
-Species distribution records are a prerequisite to follow climate-induced range shifts across space and time, yet, synthesizing information from various sources such as peer-reviewed literature, herbaria collections, digital repositories and citizen science initiatives is costly, time consuming, and challenging, as data are scattered, may comprise thematic and taxonomic errors and lack standardized formats to enable interoperability. 
+Species distribution records are a prerequisite to follow climate-induced range shifts across space and time, yet, synthesizing information from various sources such as peer-reviewed literature, herbaria collections, digital repositories and citizen science initiatives is costly, time consuming, and challenging, as data are scattered, may comprise thematic and taxonomic errors and generally lack standardized formats to enable interoperability. To address this gap, we gathered ~1.1 million records of 718 important marine ecosystem structuring species of large brown algae and seagrasses. 
 
-To address this gap, we gathered ~2 million records of 2085 important marine ecosystem structuring species of fan corals, large brown algae and seagrasses. We provide a curated dataset, taxonomically standardized, dereplicated and treated according to the physiological and biogeographical traits of species. Specifically, a flagging system was developed to sign potentially biased records occurring on land, in regions with limiting light or oxygen concentrations, and outside ecological niches and dispersal capacities. Experts were consulted to validate the accuracy of records, relatively to the known distributional range of species. 
+We provide a curated dataset, taxonomically standardized, dereplicated and treated according to the physiological and biogeographical traits of species. Specifically, a flagging system was developed to sign potentially biased records occurring on land, in regions with limiting light conditions and outside ecological niches and dispersal capacities. Experts were consulted to validate the accuracy of records, relatively to the known distributional range of species. 
 
 We document the procedure and provide a ready to use dataset, alongside with a set of functions in R language for data management and visualization.
-
 <br>
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure.png "Main Figure")
@@ -36,6 +35,7 @@ extractDataset() | Imports data to R environment | group (character), pruned (lo
 listTaxa() | Lists available taxa | --
 listData() | Lists data available in a dynamic table | extractDataset object name  (character), taxa (character), status (character)
 listDataMap() | Lists data available in a map | extractDataset object name  (character), taxa (character), status (character),radius (integer), color (character), zoom (integer)
+subsetDataset() | Subsets available data to a specific taxon | extractDataset object name (character), taxa (character), status (character)
 exportData() | Exports available data to a text delimited file or shapefile (geospatial vector data for geographic information systems) | extractDataset object name (character), taxa (character), status (character), file type (character), file name (character)
 
 <br>
