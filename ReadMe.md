@@ -13,7 +13,7 @@ We document the procedure and provide a ready to use dataset, alongside with a s
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure.png "Main Figure")
 
-Figure. Records of marine forest species (a) through time, (b) per taxonomic group (brown algae: orders Fucales, Laminariales and Tilopteridales; seagrasses: families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae) and (c) original data source. Orange circles depicts occurrence records from the Global distribution of seagrasses62 dataset (version 6.0), available at http://data.unep-wcmc.org/datasets/7 with copyright licensed by UNEP and managed by UNEP-WCMC.
+Figure. Records of marine forest species (a) through time, (b) per taxonomic group (brown algae: orders Fucales, Laminariales and Tilopteridales; seagrasses: families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae) and (c) original data source. Orange circles depict occurrence records from the Global distribution of seagrasses62 dataset (version 6.0), available at http://data.unep-wcmc.org/datasets/7 with copyright licensed by UNEP and managed by UNEP-WCMC.
 
 <br>
 
