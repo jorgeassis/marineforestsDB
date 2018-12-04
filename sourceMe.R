@@ -16,7 +16,7 @@ extractDataset <- function(group,pruned) {
   if( missing(group)) { stop("A group must be especifyed (e.g., brownAlgae or seagrasses)") }
   if( missing(pruned)) { stop("Pruned argument must be specifyed (e.g., TRUE or FALSE )") }
   
-  if( group != "seagrasses" & group != "brownAlgae") { stop("A valid group must be especifyed (e.g., browAlgae or seagrasses)")}
+  if( group != "seagrasses" & group != "brownAlgae") { stop("A valid group must be especifyed (e.g., brownAlgae or seagrasses)")}
   if( pruned != TRUE & pruned != FALSE ) { stop("Pruned argument must be TRUE or FALSE")}
   
   options(warn=-1)
