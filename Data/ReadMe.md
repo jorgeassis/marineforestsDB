@@ -6,22 +6,13 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 #### Black and orange dots depict pruned and unpruned records, respectively.
 
 
-<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" border="1">
-Fucales | Fucaceae | Fucus ceranoides
-
-<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Cymodoceanodosa.png">
-Alismatales | Cymodoceaceae | Cymodocea nodosa
-
-<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Haloduleuninervis.png">
-Alismatales, Cymodoceaceae, Halodule uninervis
-<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Phyllospadixscouleri.png">
-Alismatales | Cymodoceaceae | Phyllospadix scouleri
-<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Posidoniaceae.Posidoniaoceanica.png">
-Alismatales | Posidoniaceae | Posidonia oceanica
-<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Durvillaeaceae.Durvillaeaantarctica.png">
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Durvillaeaceae.Durvillaeaantarctica.png">
 Fucales | Durvillaeaceae | Durvillaea antarctica
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Ascophyllumnodosum.png">
 Fucales | Fucaceae | Ascophyllum nodosum
+
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" border="1">
+Fucales | Fucaceae | Fucus ceranoides
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusdistichus.png">
 Fucales | Fucaceae | Fucus distichus
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusserratus.png">
@@ -74,11 +65,19 @@ Laminariales | Lessoniaceae | Ecklonia radiata
 Laminariales | Lessoniaceae | Egregia menziesii
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Lessonianigrescens.png">
 Laminariales | Lessoniaceae | Lessonia nigrescens 
-<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Lessoniaspicata.png">
-Laminariales | Lessoniaceae | Lessonia spicata
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizadermatodea.png">
 Tilopteridales | Phyllariaceae | Saccorhiza dermatodea
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizapolyschides.png">
 Tilopteridales | Phyllariaceae | Saccorhiza polyschides
+
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Cymodoceanodosa.png">
+Alismatales | Cymodoceaceae | Cymodocea nodosa
+
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Haloduleuninervis.png">
+Alismatales, Cymodoceaceae, Halodule uninervis
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Phyllospadixscouleri.png">
+Alismatales | Cymodoceaceae | Phyllospadix scouleri
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Posidoniaceae.Posidoniaoceanica.png">
+Alismatales | Posidoniaceae | Posidonia oceanica
 
 <br>
