@@ -2,9 +2,7 @@
 
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
 
-#### Example maps of Marine Forest records. 
-#### Black and orange dots depict pruned and unpruned records, respectively.
-
+#### Example maps of Marine Forest records. Black and orange dots depict pruned and unpruned records, respectively.
 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Durvillaeaceae.Durvillaeaantarctica.png">
 Fucales | Durvillaeaceae | Durvillaea antarctica
