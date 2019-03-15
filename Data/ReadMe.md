@@ -7,12 +7,11 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 
 <br>
 <br>
+<img  style="border:1px solid gray" src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" width="85%">
 Fucales | Fucaceae | Fucus ceranoides
-<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" width="85%">
-
 <br>
-Alismatales | Cymodoceaceae | Cymodocea nodosa<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Cymodoceanodosa.png" width="85%">
-
+<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Cymodoceanodosa.png" width="85%">
+Alismatales | Cymodoceaceae | Cymodocea nodosa
 <br>
 Alismatales, Cymodoceaceae, Halodule uninervis<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Haloduleuninervis.png" width="85%">
 
