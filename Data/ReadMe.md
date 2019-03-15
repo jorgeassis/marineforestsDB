@@ -8,7 +8,8 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 
 <br>
 
-![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/AlismatalesCymodoceaceaeAmphibolisantarctica.png) <!-- .element width="50%" -->
+<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/AlismatalesCymodoceaceaeAmphibolisantarctica.png" width="40%">.
+
 
 
 <br>
