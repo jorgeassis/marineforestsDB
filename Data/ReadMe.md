@@ -5,16 +5,80 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 #### Example maps of Marine Forest records. 
 #### Black and orange dots depict pruned and unpruned records, respectively.
 
-<br>
-<br>
-<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" border="1">
-Fucales | Fucaceae | Fucus ceranoides
-<br><br>
-<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Cymodoceanodosa.png" width="85%">
-Alismatales | Cymodoceaceae | Cymodocea nodosa
-<br><br>
-Alismatales, Cymodoceaceae, Halodule uninervis<img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Haloduleuninervis.png" width="85%">
 
-<br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Phyllospadixscouleri.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Posidoniaceae.Posidoniaoceanica.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Durvillaeaceae.Durvillaeaantarctica.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Ascophyllumnodosum.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusdistichus.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusserratus.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusvesiculosus.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusvirsoides.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Pelvetiacanaliculata.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Pelvetiopsislimitata.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Silvetiacompressa.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Sargassaceae.Cystoseirabaccata.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Sargassaceae.Halidryssiliquosa.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Agaraceae.Agarumclathratum.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Alariaceae.Alariamarginata.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Alariaceae.Undariapinnatifida.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Chordaceae.Chordafilum.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariahyperborea.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariaochroleuca.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariapallida.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariasetchellii.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariasolidungula.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariayezoensis.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Macrocystispyrifera.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Nereocystisluetkeana.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Saccharinalatissima.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Eckloniamaxima.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Eckloniaradiata.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Egregiamenziesii.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Lessonianigrescens.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Lessoniaspicata.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizadermatodea.png" width="85%"><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizapolyschides.png" width="85%">
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" border="1">
+Fucales | Fucaceae | Fucus ceranoides
+
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Cymodoceanodosa.png">
+Alismatales | Cymodoceaceae | Cymodocea nodosa
+
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Haloduleuninervis.png">
+Alismatales, Cymodoceaceae, Halodule uninervis
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Phyllospadixscouleri.png">
+Alismatales | Cymodoceaceae | Phyllospadix scouleri
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Posidoniaceae.Posidoniaoceanica.png">
+Alismatales | Posidoniaceae | Posidonia oceanica
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Durvillaeaceae.Durvillaeaantarctica.png">
+Fucales | Durvillaeaceae | Durvillaea antarctica
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Ascophyllumnodosum.png">
+Fucales | Fucaceae | Ascophyllum nodosum
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusdistichus.png">
+Fucales | Fucaceae | Fucus distichus
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusserratus.png">
+Fucales | Fucaceae | Fucus serratus
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusvesiculosus.png">
+Fucales | Fucaceae | Fucus vesiculosus
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusvirsoides.png">
+Fucales | Fucaceae | Fucus virsoides
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Pelvetiacanaliculata.png">
+Fucales | Fucaceae | Pelvetia canaliculata
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Pelvetiopsislimitata.png">
+Fucales | Fucaceae | Pelvetiopsis limitata
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Silvetiacompressa.png">
+Fucales | Fucaceae | Silvetiac ompressa
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Sargassaceae.Cystoseirabaccata.png">
+Fucales | Sargassaceae | Cystoseira baccata
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Sargassaceae.Halidryssiliquosa.png">
+Fucales | Sargassaceae | Halidrys siliquosa
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Agaraceae.Agarumclathratum.png">
+Laminariales | Agaraceae | Agarum clathratum
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Alariaceae.Alariamarginata.png">
+Laminariales | Alariaceae | Alaria marginata
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Alariaceae.Undariapinnatifida.png">
+Laminariales | Alariaceae | Undaria pinnatifida
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Chordaceae.Chordafilum.png">
+Laminariales | Chordaceae | Chorda filum
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariahyperborea.png">
+Laminariales | Laminariaceae | Laminaria hyperborea
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariaochroleuca.png">
+Laminariales | Laminariaceae | Laminaria ochroleuca
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariapallida.png">
+Laminariales | Laminariaceae | Laminaria pallida
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariasetchellii.png">
+Laminariales | Laminariaceae | Laminaria setchellii
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariasolidungula.png">
+Laminariales | Laminariaceae | Laminaria solidungula
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariayezoensis.png">
+Laminariales | Laminariaceae | Laminaria yezoensis
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Macrocystispyrifera.png">
+Laminariales | Laminariaceae | Macrocystis pyrifera
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Nereocystisluetkeana.png">
+Laminariales | Laminariaceae | Nereocystis luetkeana
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Saccharinalatissima.png">
+Laminariales | Laminariaceae | Saccharina latissima
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Eckloniamaxima.png">
+Laminariales | Lessoniaceae | Ecklonia maxima
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Eckloniaradiata.png">
+Laminariales | Lessoniaceae | Ecklonia radiata
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Egregiamenziesii.png">
+Laminariales | Lessoniaceae | Egregia menziesii
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Lessonianigrescens.png">
+Laminariales | Lessoniaceae | Lessonia nigrescens 
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Lessoniaspicata.png">
+Laminariales | Lessoniaceae | Lessonia spicata
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizadermatodea.png">
+Tilopteridales | Phyllariaceae | Saccorhiza dermatodea
+<br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizapolyschides.png">
+Tilopteridales | Phyllariaceae | Saccorhiza polyschides
 
 <br>
