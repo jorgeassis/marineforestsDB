@@ -6,7 +6,7 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 
 <br>
 
-![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/Examples/Alismatales.Cymodoceaceae.Amphibolis antarctica.png "Main Figure")
+![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/Examples/AlismatalesCymodoceaceaeAmphibolisantarctica.png "Main Figure")
 
 <br>
 
