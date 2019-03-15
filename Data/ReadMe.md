@@ -2,11 +2,13 @@
 
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
 
-### Examples of marine forest records per species.
+<br>
+
+### Example maps of marine forest records per species. Black and orange dots depict pruned and unpruned records, respectively.
 
 <br>
 
-![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/Examples/AlismatalesCymodoceaceaeAmphibolisantarctica.png "Main Figure")
+![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/Example Maps/AlismatalesCymodoceaceaeAmphibolisantarctica.png "Main Figure")
 
 <br>
 
