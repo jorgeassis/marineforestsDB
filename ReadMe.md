@@ -71,6 +71,8 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 
 Except where otherwise noted, the content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
+<br>
+
 ### Appropriate credits
 
 Assis, J., Fragkopoulou, E., Frade, D., Neiva, J., Oliveira, A., Abecasis, D., Faugeron, A., Serrão, E.A. (2019) A fine-tuned global distribution dataset of marine forests.

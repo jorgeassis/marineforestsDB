@@ -2,17 +2,20 @@
 
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
 
-#### Example maps of Marine Forest records. Black and orange dots depict pruned and unpruned records, respectively.
+<br>
+
+##### Example maps of Marine Forest records of large brown algae and seagrasses. 
+###### Black and orange dots depict pruned and unpruned records, respectively.
 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Durvillaeaceae.Durvillaeaantarctica.png">
-Fucales | Durvillaeaceae | Durvillaea antarctica
+Fig 1. Fucales | Durvillaeaceae | Durvillaea antarctica
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Ascophyllumnodosum.png">
 Fucales | Fucaceae | Ascophyllum nodosum
 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" border="1">
-Fucales | Fucaceae | Fucus ceranoides
+Fig 2. Fucales | Fucaceae | Fucus ceranoides
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusdistichus.png">
-Fucales | Fucaceae | Fucus distichus
+Fig 3. Fucales | Fucaceae | Fucus distichus
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusserratus.png">
 Fucales | Fucaceae | Fucus serratus
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusvesiculosus.png">
