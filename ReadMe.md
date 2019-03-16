@@ -10,7 +10,6 @@ We provide a curated dataset, taxonomically standardized, dereplicated and treat
 
 We document the procedure and provide a ready to use dataset in tabular and geospatial vector data formats, alongside with a set of functions in R language for data management and visualization.
 
-<br>
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure.png "Main Figure")
 
