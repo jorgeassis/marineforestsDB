@@ -8,77 +8,77 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 ###### Black and orange dots depict pruned and unpruned records, respectively.
 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Durvillaeaceae.Durvillaeaantarctica.png">
-Fig 1. Fucales | Durvillaeaceae | Durvillaea antarctica
+Fig 1. Example map of  Fucales | Durvillaeaceae | Durvillaea antarctica
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Ascophyllumnodosum.png">
-Fig 2. Fucales | Fucaceae | Ascophyllum nodosum
+Fig 2. Example map of  Fucales | Fucaceae | Ascophyllum nodosum
 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusceranoides.png" border="1">
-Fig 3. Fucales | Fucaceae | Fucus ceranoides
+Fig 3. Example map of  Fucales | Fucaceae | Fucus ceranoides
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusdistichus.png">
-Fig 4. Fucales | Fucaceae | Fucus distichus
+Fig 4. Example map of Fucales | Fucaceae | Fucus distichus
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusserratus.png">
-Fig 4. Fucales | Fucaceae | Fucus serratus
+Fig 5. Example map of Fucales | Fucaceae | Fucus serratus
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusvesiculosus.png">
-Fig 4. Fucales | Fucaceae | Fucus vesiculosus
+Fig 6. Example map of Fucales | Fucaceae | Fucus vesiculosus
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Fucusvirsoides.png">
-Fig 4. Fucales | Fucaceae | Fucus virsoides
+Fig 7. Example map of Fucales | Fucaceae | Fucus virsoides
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Pelvetiacanaliculata.png">
-Fig 4. Fucales | Fucaceae | Pelvetia canaliculata
+Fig 8. Example map of Fucales | Fucaceae | Pelvetia canaliculata
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Pelvetiopsislimitata.png">
-Fig 4. Fucales | Fucaceae | Pelvetiopsis limitata
+Fig 9. Example map of Fucales | Fucaceae | Pelvetiopsis limitata
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Fucaceae.Silvetiacompressa.png">
-Fig 4. Fucales | Fucaceae | Silvetiac ompressa
+Fig 10. Example map of Fucales | Fucaceae | Silvetiac ompressa
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Sargassaceae.Cystoseirabaccata.png">
-Fig 4. Fucales | Sargassaceae | Cystoseira baccata
+Fig 11. Example map of Fucales | Sargassaceae | Cystoseira baccata
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Fucales.Sargassaceae.Halidryssiliquosa.png">
-Fig 4. Fucales | Sargassaceae | Halidrys siliquosa
+Fig 12. Example map of Fucales | Sargassaceae | Halidrys siliquosa
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Agaraceae.Agarumclathratum.png">
-Fig 4. Laminariales | Agaraceae | Agarum clathratum
+Fig 13. Example map of Laminariales | Agaraceae | Agarum clathratum
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Alariaceae.Alariamarginata.png">
-Fig 4. Laminariales | Alariaceae | Alaria marginata
+Fig 14. Example map of Laminariales | Alariaceae | Alaria marginata
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Alariaceae.Undariapinnatifida.png">
-Fig 4. Laminariales | Alariaceae | Undaria pinnatifida
+Fig 15. Example map of Laminariales | Alariaceae | Undaria pinnatifida
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Chordaceae.Chordafilum.png">
-Fig 4. Laminariales | Chordaceae | Chorda filum
+Fig 16. Example map of Laminariales | Chordaceae | Chorda filum
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariahyperborea.png">
-Fig 4. Laminariales | Laminariaceae | Laminaria hyperborea
+Fig 17. Example map of Laminariales | Laminariaceae | Laminaria hyperborea
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariaochroleuca.png">
-Fig 4. Laminariales | Laminariaceae | Laminaria ochroleuca
+Fig 18. Example map of Laminariales | Laminariaceae | Laminaria ochroleuca
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariapallida.png">
-Fig 4. Laminariales | Laminariaceae | Laminaria pallida
+Fig 19. Example map of Laminariales | Laminariaceae | Laminaria pallida
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariasetchellii.png">
-Fig 4. Laminariales | Laminariaceae | Laminaria setchellii
+Fig 20. Example map of Laminariales | Laminariaceae | Laminaria setchellii
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariasolidungula.png">
-Fig 4. Laminariales | Laminariaceae | Laminaria solidungula
+Fig 21. Example map of Laminariales | Laminariaceae | Laminaria solidungula
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Laminariayezoensis.png">
-Fig 4. Laminariales | Laminariaceae | Laminaria yezoensis
+Fig 22. Example map of Laminariales | Laminariaceae | Laminaria yezoensis
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Macrocystispyrifera.png">
-Fig 4. Laminariales | Laminariaceae | Macrocystis pyrifera
+Fig 23. Example map of Laminariales | Laminariaceae | Macrocystis pyrifera
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Nereocystisluetkeana.png">
-Fig 4. Laminariales | Laminariaceae | Nereocystis luetkeana
+Fig 24. Example map of Laminariales | Laminariaceae | Nereocystis luetkeana
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Laminariaceae.Saccharinalatissima.png">
-Fig 4. Laminariales | Laminariaceae | Saccharina latissima
+Fig 25. Example map of Laminariales | Laminariaceae | Saccharina latissima
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Eckloniamaxima.png">
-Fig 4. Laminariales | Lessoniaceae | Ecklonia maxima
+Fig 26. Example map of Laminariales | Lessoniaceae | Ecklonia maxima
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Eckloniaradiata.png">
-Fig 4. Laminariales | Lessoniaceae | Ecklonia radiata
+Fig 27. Example map of Laminariales | Lessoniaceae | Ecklonia radiata
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Egregiamenziesii.png">
-Fig 4. Laminariales | Lessoniaceae | Egregia menziesii
+Fig 28. Example map of Laminariales | Lessoniaceae | Egregia menziesii
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Laminariales.Lessoniaceae.Lessonianigrescens.png">
-Fig 4. Laminariales | Lessoniaceae | Lessonia nigrescens 
+Fig 29. Example map of Laminariales | Lessoniaceae | Lessonia nigrescens 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizadermatodea.png">
-Fig 4. Tilopteridales | Phyllariaceae | Saccorhiza dermatodea
+Fig 30. Example map of Tilopteridales | Phyllariaceae | Saccorhiza dermatodea
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Tilopteridales.Phyllariaceae.Saccorhizapolyschides.png">
-Fig 4. Tilopteridales | Phyllariaceae | Saccorhiza polyschides
+Fig 31. Example map of Tilopteridales | Phyllariaceae | Saccorhiza polyschides
 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Cymodoceanodosa.png">
-Fig 4. Alismatales | Cymodoceaceae | Cymodocea nodosa
+Fig 32. Example map of Alismatales | Cymodoceaceae | Cymodocea nodosa
 
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Haloduleuninervis.png">
-Fig 4. Alismatales, Cymodoceaceae, Halodule uninervis
+Fig 33. Example map of Alismatales, Cymodoceaceae, Halodule uninervis
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Cymodoceaceae.Phyllospadixscouleri.png">
-Fig 4. Alismatales | Cymodoceaceae | Phyllospadix scouleri
+Fig 34. Example map of Alismatales | Cymodoceaceae | Phyllospadix scouleri
 <br><br><img src="https://github.com/jorgeassis/marineforestsDB/raw/master/Data/exampleMaps/Alismatales.Posidoniaceae.Posidoniaoceanica.png">
-Fig 4. Alismatales | Posidoniaceae | Posidonia oceanica
+Fig 35. Example map of Alismatales | Posidoniaceae | Posidonia oceanica
 
 <br>
