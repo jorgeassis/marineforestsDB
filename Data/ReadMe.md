@@ -2,8 +2,6 @@
 
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
 
-<br>
-
 #### Example maps of Marine Forest records of large brown algae and seagrasses. 
 ###### Black and orange dots depict pruned and unpruned records, respectively.
 
