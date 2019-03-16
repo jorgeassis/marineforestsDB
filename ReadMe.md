@@ -10,7 +10,6 @@ We provide a curated dataset, taxonomically standardized, dereplicated and treat
 
 We document the procedure and provide a ready to use dataset in tabular and geospatial vector data formats, alongside with a set of functions in R language for data management and visualization.
 
-
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure.png "Main Figure")
 
 Figure. Dataset of marine forest species of (a) brown algae (orders Fucales, Laminariales and Tilopteridales) and (b) seagrasses (families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae). Red and gray circles depict pruned and unpruned data, respectively. Orange circles depict occurrence records from the World Atlas of Seagrasses45 (version 6.0), available at http://data.unep-wcmc.org/datasets/7 with copyright licensed by UNEP and managed by UNEP-WCMC.
@@ -23,7 +22,6 @@ We provide a set of functions in R language to facilitate extraction, listing an
 
 source("https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/sourceMe.R")
 
-<br>
 <br>
 Table. List of functions available for management and visualization.
 <br>
@@ -65,10 +63,10 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 
 <br>
 
-### License and credits 
+### License
 
 Except where otherwise noted, the content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
-Giving appropriate credit:
+### Appropriate credits
 
-Assis, J., Fragkopoulou, E., Frade, D., Neiva, J., Oliveira, A., Abecasis, D., Faugeron, A., Serrão, E.A. (2018) A fine-tuned global distribution dataset of marine forests.
+Assis, J., Fragkopoulou, E., Frade, D., Neiva, J., Oliveira, A., Abecasis, D., Faugeron, A., Serrão, E.A. (2019) A fine-tuned global distribution dataset of marine forests.
