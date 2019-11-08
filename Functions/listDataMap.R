@@ -20,7 +20,7 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
   
   if( missing(radius)) { radius <- 2 }
   if( missing(color)) { color <- "black" }
-  if( missing(zoom)) { zoom.define <- FALSE }
+  if( missing(zoom)) { zoom <- FALSE }
   if( missing(taxa)) { taxa <- NULL }
   if( missing(status)) { status <- "accepted" }
   
@@ -37,40 +37,40 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
   
   if( status == "accepted" ) { 
     
-    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    if( length(which(dataset$acceptedName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
     
-    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+    data <- data[ which(data$acceptedName == taxa) ,] 
     
-    }
+  }
   if( status != "accepted" ) { 
     
-    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-
-    data <- data[ which(data$speciesName == taxa) ,] 
-  
+    if( length(which(dataset$name == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    
+    data <- data[ which(data$name == taxa) ,] 
+    
   }
   
-  species.name <- unlist(data$speciesName)
-  species.status <- unlist(data$status)
+  species.name <- unlist(data$name)
+  species.status <- unlist(data$taxonomicStatus)
   species.wormsid <- data$aphiaID
   
   temp.record.site <- data$locality
   temp.record.country <- data$country
   temp.record.year <- data$year
-  temp.record.depth <- data$depth
-  temp.record.reference <- data$originalSourceType
-  temp.record.reference.id <- data$originalSource
+  temp.record.depth <- data$verbatimDepth
+  temp.record.reference <- data$sourceType
+  temp.record.reference.id <- data$bibliographicCitation
   
   popup = paste0(
-                 paste0("Species: <i>", species.name,"</i><br>"),
-                 paste0("aphiaID: ", species.wormsid,"<br>"),
-                 paste0("Status: ", species.status,"<br>"),
-                 paste0("<hr noshade size='1'/>"),
-                 ifelse( temp.record.site != "" & ! is.na(temp.record.site), paste0("Site: ", temp.record.site , " (",temp.record.country ,")","<br>"), as.character("") ),
-                 ifelse( !is.na(temp.record.year), paste0("Year: ", temp.record.year , "<br>"), as.character("") ),
-                 ifelse( !is.na(temp.record.depth), paste0("Depth: ", temp.record.depth , "<br>"), as.character("") ),
-                 paste0(temp.record.reference , ": ",temp.record.reference.id ,"","<br>")
-                 
+    paste0("Species: <i>", species.name,"</i><br>"),
+    paste0("aphiaID: ", species.wormsid,"<br>"),
+    paste0("Status: ", species.status,"<br>"),
+    paste0("<hr noshade size='1'/>"),
+    ifelse( temp.record.site != "" & ! is.na(temp.record.site), paste0("Site: ", temp.record.site , " (",temp.record.country ,")","<br>"), as.character("") ),
+    ifelse( !is.na(temp.record.year), paste0("Year: ", temp.record.year , "<br>"), as.character("") ),
+    ifelse( !is.na(temp.record.depth), paste0("Depth: ", temp.record.depth , "<br>"), as.character("") ),
+    paste0(temp.record.reference , ": ",temp.record.reference.id ,"","<br>")
+    
   )
   
   epsg3006 <- leafletCRS(crsClass = "L.Proj.CRS", code = "EPSG:4326",
@@ -93,9 +93,10 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
                         color = color , 
                         stroke = FALSE, 
                         fillOpacity = 0.5 )
-    
+  
   options(warn=0)
   
   return(m)
   
 }
+

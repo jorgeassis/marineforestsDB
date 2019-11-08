@@ -15,7 +15,7 @@
 ## -----------------------------------------------------------------------------------------------
 
 getTaxonomyWorms <- function(name) {
-
+  
   packages.to.use <- "worms"
   
   options(warn=-1)
@@ -32,32 +32,32 @@ getTaxonomyWorms <- function(name) {
   options(warn=0)
   
   if( exists("worms.query") ) { 
-
-        cat('\n')
-        cat('\n')
-        cat('----------------------------------------------------------------------')
-        cat('\n')
-        cat('Processing taxonomy for', name )
-        cat('\n')
-        cat('\n')
-        cat('\n')
-
-        return(data.frame(
-          aphiaID = worms.query$AphiaID,
-          name = worms.query$scientificname,
-          authority = worms.query$authority,
-          status = worms.query$status,
-          taxKingdom = worms.query$kingdom,
-          taxPhylum = worms.query$phylum,
-          taxClass = worms.query$class,
-          taxOrder = worms.query$order,
-          taxFamily = worms.query$family,
-          taxGenus = worms.query$genus,
-          revisionByWormsDate = Sys.Date(),
-          acceptedAphiaID = worms.query$valid_AphiaID,
-          acceptedName = worms.query$valid_name
-        ))
-      
+    
+    cat('\n')
+    cat('\n')
+    cat('----------------------------------------------------------------------')
+    cat('\n')
+    cat('Processing taxonomy for', name )
+    cat('\n')
+    cat('\n')
+    cat('\n')
+    
+    return(data.frame(
+      aphiaID = worms.query$AphiaID,
+      name = worms.query$scientificname,
+      authority = worms.query$authority,
+      status = worms.query$status,
+      taxKingdom = worms.query$kingdom,
+      taxPhylum = worms.query$phylum,
+      taxClass = worms.query$class,
+      taxOrder = worms.query$order,
+      taxFamily = worms.query$family,
+      taxGenus = worms.query$genus,
+      revisionByWormsDate = Sys.Date(),
+      acceptedAphiaID = worms.query$valid_AphiaID,
+      acceptedName = worms.query$valid_name
+    ))
+    
   } else {         
     
     cat('\n')
@@ -69,5 +69,5 @@ getTaxonomyWorms <- function(name) {
     cat('\n')
     cat('\n')
     
-    }
+  }
 }

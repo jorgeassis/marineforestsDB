@@ -28,14 +28,7 @@ for(package in packages.to.use) {
 }
 
 raster.light <- load_layers("BO2_lightbotmin_bdmax")
-raster.o2 <- calc(stack(load_layers(c("BO2_dissoxmin_bdmin","BO2_dissoxmean_bdmin","BO2_dissoxmax_bdmin",
-                                      "BO2_dissoxmin_bdmean","BO2_dissoxmean_bdmean","BO2_dissoxmax_bdmean",
-                                      "BO2_dissoxmin_bdmax","BO2_dissoxmean_bdmax","BO2_dissoxmax_bdmax"))),max)
-rasters <- stack(raster.o2,raster.light) 
-names(rasters) <- c("raster.o2","raster.light")
-colnames(records) <- c("Lon","Lat")
-coordinates(records) <- c("Lon","Lat")
-results <- extract(rasters,records)
+results <- extract(raster.light,records)
   
 options(warn=0)
 return(results)

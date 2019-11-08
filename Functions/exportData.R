@@ -39,18 +39,19 @@ exportData <- function(data,taxa,status,type,file) {
     
     if( status == "accepted" ) { 
       
-      if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+      if( length(which(dataset$acceptedName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+      data <- data[ which(data$acceptedName == taxa) ,] 
     }
     if( status != "accepted" ) { 
       
-      if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$speciesName == taxa) ,] }
+      if( length(which(dataset$name == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+      data <- data[ which(data$name == taxa) ,] }
     
   }
   
   if(type == "csv") {
-    write.table(data,file=file, na = "NA", dec = ".", row.names = FALSE, col.names = TRUE)
+    
+    write.table(data,file=file, row.names = FALSE, quote=FALSE,sep = ";",col.names = TRUE)
     
   }
   if(type == "shp") {

@@ -32,15 +32,15 @@ listData <- function(data,taxa,status) {
   }
   
   if( status == "accepted" ) { 
-      
-      if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
-      }
-  if( status != "accepted" ) { 
-      
-      if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$speciesName == taxa) ,] }
     
+    if( length(which(dataset$acceptedName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$acceptedName == taxa) ,] 
+  }
+  if( status != "accepted" ) { 
+    
+    if( length(which(dataset$name == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$name == taxa) ,] }
+  
   options(warn=0)
   
   shinyApp(
