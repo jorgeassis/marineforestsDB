@@ -27,7 +27,7 @@ listTaxa <- function() {
   file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/listOfTaxa.csv?raw=true"
   
   download.file(file.to.download,destfile=paste0(tempdir(),"/MFTempFileLTaxa.csv"))
-  data <- read.table(file=paste0(tempdir(),"/MFTempFileLTaxa.csv"),header=TRUE,sep=",")
+  data <- read.table(file=paste0(tempdir(),"/MFTempFileLTaxa.csv"),header=TRUE,sep="\t")
   file.remove(paste0(tempdir(),"/MFTempFileLTaxa.csv"))
   
   mydata <- as.matrix(data)
@@ -56,7 +56,7 @@ extractDataset <- function(group,pruned) {
   if( missing(pruned)) { stop("Pruned argument must be specifyed (e.g., TRUE or FALSE )") }
   
   if( group != "seagrasses" & group != "brownAlgae") { stop("A valid group must be especifyed (e.g., brownAlgae or seagrasses)")}
-  if( pruned != TRUE & pruned != FALSE ) { stop("Pruned argument must be TRUE or FALSE")}
+  if( pruned != TRUE & pruned != FALSE ) { stop("Pruned argument must be specifyed as TRUE or FALSE")}
   
   options(warn=-1)
   
@@ -73,29 +73,29 @@ extractDataset <- function(group,pruned) {
   
   if( pruned ) { 
     
-    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrassesPruned.csv.zip?raw=true" }
-    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgaePruned.csv.zip?raw=true" }
+    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrassesPruned.zip?raw=true" }
+    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgaePruned.zip?raw=true" }
     
-    if( group == "seagrasses" ) {  file.name <- "dataSeagrassesPrunned.csv" }
-    if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgaePrunned.csv" }
+    if( group == "seagrasses" ) {  file.name <- "dataSeagrassesPruned.RData" }
+    if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgaePruned.RData" }
     
     
   }
   
   if( ! pruned ) { 
     
-    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrasses.csv.zip?raw=true" }
-    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgae.csv.zip?raw=true" }
+    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrasses.zip?raw=true" }
+    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgae.zip?raw=true" }
     
-    if( group == "seagrasses" ) {  file.name <- "dataSeagrasses.csv" }
-    if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgae.csv" }
+    if( group == "seagrasses" ) {  file.name <- "dataSeagrasses.RData" }
+    if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgae.RData" }
     
   }
   
   download.file(file.to.download,destfile=paste0(tempdir(),"/MFTempFile.zip"))
   unzip(paste0(tempdir(),"/MFTempFile.zip"),exdir=tempdir(),overwrite=TRUE)
   
-  myData <- read.csv(paste0(tempdir(),"/",file.name))
+  myData <- load(paste0(tempdir(),"/",file.name))
   file.remove(paste0(tempdir(),"/MFTempFile.zip"))
   file.remove(paste0(tempdir(),"/",file.name))
   return(myData)
