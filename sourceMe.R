@@ -298,7 +298,8 @@ exportData <- function(data,taxa,status,type,file) {
   }
   
   if(type == "csv") {
-    write.table(data,file=file, na = "NA", dec = ".", row.names = FALSE, col.names = TRUE)
+    
+    write.table(data,file=file, row.names = FALSE, quote=FALSE,sep = ";",col.names = TRUE)
     
   }
   if(type == "shp") {

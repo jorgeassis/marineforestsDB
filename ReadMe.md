@@ -43,20 +43,20 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 
 ### Example of main functions use
 
-1. listTaxa()
-2. dataset <- extractDataset("seagrasses",pruned=TRUE)<br>
-3. getTaxonomyWorms("Zostera marina")<br>
-4. listData(dataset,taxa="Zostera (Zostera) marina",status="unaccepted")<br>
-5. listDataMap(dataset,taxa="Zostera (Zostera) marina",status="unaccepted",radius=3,color="Black",zoom=4)<br>
-6. exportData(dataset,taxa="Zostera (Zostera) marina",status="unaccepted",type="shp",file="myfile")
+1. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
+2. getTaxonomyWorms("Laminaria digitata")<br>
+3. listData(dataset,taxa="Laminaria digitata",status="accepted")<br>
+4. listDataMap(dataset,taxa="Laminaria digitata",status="accepted",radius=2,color="Black",zoom=2)<br>
+5. exportData(dataset,taxa="Laminaria digitata",status="accepted",type="csv",file="myfile.csv")
 
 <br>
 
-1. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
-2. getTaxonomyWorms("Laminaria digitata")<br>
-3. listData(dataset)<br>
-4. listDataMap(dataset,taxa="Laminaria digitata",status="accepted",radius=2,color="Black",zoom=2)<br>
-5. exportData(dataset,taxa="Laminaria digitata",status="accepted",type="csv",file="myfile.csv")
+1. listTaxa()
+2. dataset <- extractDataset("seagrasses",pruned=TRUE)<br>
+3. getTaxonomyWorms("Zostera marina")<br>
+4. listData(dataset,taxa="Zostera marina",status="unaccepted")<br>
+5. listDataMap(dataset,taxa="Zostera marina",status="unaccepted",radius=3,color="Black",zoom=2)<br>
+6. exportData(dataset,taxa="Zostera marina",status="unaccepted",type="shp",file="myfile")
 
 <br>
 
@@ -68,7 +68,7 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 
 ### License
 
-Except where otherwise noted, the content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+The content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
 <br>
 
