@@ -1,4 +1,4 @@
-﻿aphiaID;parentAphiaID;acceptedAphiaID;name;scientificNameAuthorship;acceptedName;kingdom;phylum;class;order;family;genus;taxonRank;taxonomicStatus
+aphiaID;parentAphiaID;acceptedAphiaID;name;scientificNameAuthorship;acceptedName;kingdom;phylum;class;order;family;genus;taxonRank;taxonomicStatus
 145716;144194;145716;Alaria esculenta;(Linnaeus) Greville, 1830;Alaria esculenta;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Alariaceae;Alaria;Species;accepted
 145541;144128;145541;Ascophyllum nodosum;(Linnaeus) Le Jolis, 1863;Ascophyllum nodosum;Chromista;Ochrophyta;Phaeophyceae;Fucales;Fucaceae;Ascophyllum;Species;accepted
 145503;144125;145503;Bifurcaria bifurcata;R.Ross, 1958;Bifurcaria bifurcata;Chromista;Ochrophyta;Phaeophyceae;Fucales;Sargassaceae;Bifurcaria;Species;accepted
@@ -230,7 +230,7 @@
 145726;144199;377084;Laminaria japonica;Areschoug, 1851;Saccharina japonica;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Laminaria;Species;unaccepted
 232227;144199;847543;Laminaria ochotensis;Miyabe, 1902;Saccharina japonica var. ochotensis;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Laminaria;Species;unaccepted
 501948;157205;374804;Agarum clathrus;(S.G.Gmelin) Greville, 1830;Thalassiophyllum clathrus;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Agaraceae;Agarum;Species;unaccepted
-707777;234482;707777;Saccharina complanata;(Setchell & N.L.Gardner) Gabrielson, Lindstrom & O'Kelly, 2012;Saccharina complanata;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Saccharina;Species;accepted
+707777;234482;707777;Saccharina complanata;(Setchell & N.L.Gardner) Gabrielson, Lindstrom & O Kelly, 2012;Saccharina complanata;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Saccharina;Species;accepted
 499673;144194;373975;Alaria corrugata;Miyabe, 1902;Alaria praelonga;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Alariaceae;Alaria;Species;unaccepted
 498512;370002;372700;Pelagophycus giganteus;Areschoug, 1881;Pelagophycus porra;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Laminariaceae;Pelagophycus;Species;unaccepted
 501024;370307;145721;Ulopteryx pinnatifida;(Harvey) Kjellman, 1885;Undaria pinnatifida;Chromista;Ochrophyta;Phaeophyceae;Laminariales;Alariaceae;Ulopteryx;Species;unaccepted

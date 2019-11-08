@@ -11,13 +11,10 @@ We gathered distribution records from various sources and provide a fine-tuned d
 We document the procedure and provide a dataset in tabular format based on Darwin Core Standard (DwC), alongside with a set of functions in R language for data management and visualization.
 
 <br>
-
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure1.png "Main Figure")
-
 Figure 1. Dataset of marine forest species of brown algae (orders Fucales, Laminariales and Tilopteridales). Red and gray circles depict raw and fine-tuned (unbiased) data, respectively.
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure2.png "Main Figure")
-
 Figure 2. Dataset of marine forest species of seagrasses (families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae). Red and gray circles depict raw and fine-tuned (unbiased) data, respectively.
 
 <br>
