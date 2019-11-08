@@ -14,9 +14,11 @@ We document the procedure and provide a dataset in tabular format based on Darwi
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure1.png "Main Figure")
 
-Figure. Dataset of marine forest species of (a) brown algae (orders Fucales, Laminariales and Tilopteridales) and (b) seagrasses (families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae). Red and gray circles depict pruned and unpruned data, respectively. Orange circles depict occurrence records from the World Atlas of Seagrasses45 (version 6.0), available at http://data.unep-wcmc.org/datasets/7 with copyright licensed by UNEP and managed by UNEP-WCMC.
+Figure 1. Dataset of marine forest species of brown algae (orders Fucales, Laminariales and Tilopteridales). Red and gray circles depict raw and fine-tuned (unbiased) data, respectively.
 
-For additional examples of Marine Forest records per species please refer to [example maps](https://github.com/jorgeassis/marineforestsDB/blob/master/Data/ReadMe.md).
+![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure2.png "Main Figure")
+
+Figure 2. Dataset of marine forest species of seagrasses (families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae). Red and gray circles depict raw and fine-tuned (unbiased) data, respectively.
 
 <br>
 
