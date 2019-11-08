@@ -4,15 +4,15 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 
 ### Abstract
 
-Species distribution records are a prerequisite to follow climate-induced range shifts across space and time. However, synthesizing information from various sources such as peer-reviewed literature, herbaria, digital repositories and citizen science initiatives is not only costly and time consuming, but also challenging, as data may contain thematic and taxonomic errors and generally lack standardized formats to enable interoperability. To address this gap, we gathered ~1.1 million records of 706 important marine ecosystem-structuring species of large brown algae and seagrasses. 
+Species distribution records are a prerequisite to follow climate-induced range shifts across space and time. However, synthesizing information from various sources such as peer-reviewed literature, herbaria, digital repositories and citizen science initiatives is not only costly and time consuming, but also challenging, as data may contain thematic and taxonomic errors and generally lack standardized formats. We address this gap for important marine ecosystem-structuring species of large brown algae and seagrasses. 
 
-We provide a curated dataset, taxonomically standardized, dereplicated and treated according to the physiological and biogeographical traits of species. Specifically, an automatic flagging system was developed to sign potentially incorrect records reported on land, outside ecological niches (such as limiting thermal and light conditions) and beyond dispersal capacities. The accuracy of the final records was validated based on the most recent published information about the species range distribution. 
+We gathered distribution records from various sources and provide a fine-tuned dataset with ~2.8 million dereplicated records, taxonomically standardized for 682 species, and considering important physiological and biogeographical traits. Specifically, a flagging system was implemented to sign potentially incorrect records reported on land, in regions with limiting light conditions for photosynthesis, and outside the known distribution of species, as inferred from the most recent published literature. 
 
-We document the procedure and provide a ready to use dataset in tabular and geospatial vector data formats, alongside with a set of functions in R language for data management and visualization.
+We document the procedure and provide a dataset in tabular format based on Darwin Core Standard (DwC), alongside with a set of functions in R language for data management and visualization.
 
 <br>
 
-![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure.png "Main Figure")
+![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure1.png "Main Figure")
 
 Figure. Dataset of marine forest species of (a) brown algae (orders Fucales, Laminariales and Tilopteridales) and (b) seagrasses (families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae). Red and gray circles depict pruned and unpruned data, respectively. Orange circles depict occurrence records from the World Atlas of Seagrasses45 (version 6.0), available at http://data.unep-wcmc.org/datasets/7 with copyright licensed by UNEP and managed by UNEP-WCMC.
 
