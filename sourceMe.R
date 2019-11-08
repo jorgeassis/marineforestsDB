@@ -73,29 +73,36 @@ extractDataset <- function(group,pruned) {
   
   if( pruned ) { 
     
-    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrassesPruned.zip?raw=true" }
-    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgaePruned.zip?raw=true" }
+    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrassesPruned.RData.zip?raw=true" }
+    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgaePruned.RData.zip?raw=true" }
     
     if( group == "seagrasses" ) {  file.name <- "dataSeagrassesPruned.RData" }
     if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgaePruned.RData" }
     
+    if( group == "seagrasses" ) {  file.name.obj <- "finalDataBaseSPruned" }
+    if( group == "brownAlgae" ) {  file.name.obj <- "finalDataBaseBPruned" }
     
   }
   
   if( ! pruned ) { 
     
-    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrasses.zip?raw=true" }
-    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgae.zip?raw=true" }
+    if( group == "seagrasses" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataSeagrasses.RData.zip?raw=true" }
+    if( group == "brownAlgae" ) {  file.to.download <- "https://github.com/jorgeassis/marineforestsDB/blob/master/Data/dataBrownAlgae.RData.zip?raw=true" }
     
     if( group == "seagrasses" ) {  file.name <- "dataSeagrasses.RData" }
     if( group == "brownAlgae" ) {  file.name <- "dataBrownAlgae.RData" }
+    
+    if( group == "seagrasses" ) {  file.name.obj <- "finalDataBaseS" }
+    if( group == "brownAlgae" ) {  file.name.obj <- "finalDataBaseB" }
     
   }
   
   download.file(file.to.download,destfile=paste0(tempdir(),"/MFTempFile.zip"))
   unzip(paste0(tempdir(),"/MFTempFile.zip"),exdir=tempdir(),overwrite=TRUE)
   
-  myData <- load(paste0(tempdir(),"/",file.name))
+  load(paste0(tempdir(),"/",file.name))
+  myData <- get(file.name.obj)
+  
   file.remove(paste0(tempdir(),"/MFTempFile.zip"))
   file.remove(paste0(tempdir(),"/",file.name))
   return(myData)
@@ -112,13 +119,13 @@ subsetDataset <- function(data,taxa,status) {
   
   if( status == "accepted" ) { 
     
-    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+    if( length(which(dataset$acceptedName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$acceptedName == taxa) ,] 
   }
   if( status != "accepted" ) { 
     
-    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-    data <- data[ which(data$speciesName == taxa) ,] 
+    if( length(which(dataset$name == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$name == taxa) ,] 
     
   }
 
@@ -134,7 +141,7 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
   
   if( missing(radius)) { radius <- 2 }
   if( missing(color)) { color <- "black" }
-  if( missing(zoom)) { zoom.define <- FALSE }
+  if( missing(zoom)) { zoom <- FALSE }
   if( missing(taxa)) { taxa <- NULL }
   if( missing(status)) { status <- "accepted" }
   
@@ -151,29 +158,29 @@ listDataMap <- function(data,taxa,status,radius,color,zoom) {
   
   if( status == "accepted" ) { 
     
-    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    if( length(which(dataset$acceptedName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
     
-    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+    data <- data[ which(data$acceptedName == taxa) ,] 
     
   }
   if( status != "accepted" ) { 
     
-    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    if( length(which(dataset$name == taxa)) == 0 ) { stop("Taxa not found in dataset") }
     
-    data <- data[ which(data$speciesName == taxa) ,] 
+    data <- data[ which(data$name == taxa) ,] 
     
   }
   
-  species.name <- unlist(data$speciesName)
-  species.status <- unlist(data$status)
+  species.name <- unlist(data$name)
+  species.status <- unlist(data$taxonomicStatus)
   species.wormsid <- data$aphiaID
   
   temp.record.site <- data$locality
   temp.record.country <- data$country
   temp.record.year <- data$year
-  temp.record.depth <- data$depth
-  temp.record.reference <- data$originalSourceType
-  temp.record.reference.id <- data$originalSource
+  temp.record.depth <- data$verbatimDepth
+  temp.record.reference <- data$sourceType
+  temp.record.reference.id <- data$bibliographicCitation
   
   popup = paste0(
     paste0("Species: <i>", species.name,"</i><br>"),
@@ -234,13 +241,13 @@ listData <- function(data,taxa,status) {
   
   if( status == "accepted" ) { 
     
-    if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-    data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+    if( length(which(dataset$acceptedName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$acceptedName == taxa) ,] 
   }
   if( status != "accepted" ) { 
     
-    if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-    data <- data[ which(data$speciesName == taxa) ,] }
+    if( length(which(dataset$name == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+    data <- data[ which(data$name == taxa) ,] }
   
   options(warn=0)
   
@@ -280,13 +287,13 @@ exportData <- function(data,taxa,status,type,file) {
     
     if( status == "accepted" ) { 
       
-      if( length(which(dataset$acceptedSpeciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$acceptedSpeciesName == taxa) ,] 
+      if( length(which(dataset$acceptedName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+      data <- data[ which(data$acceptedName == taxa) ,] 
     }
     if( status != "accepted" ) { 
       
-      if( length(which(dataset$speciesName == taxa)) == 0 ) { stop("Taxa not found in dataset") }
-      data <- data[ which(data$speciesName == taxa) ,] }
+      if( length(which(dataset$name == taxa)) == 0 ) { stop("Taxa not found in dataset") }
+      data <- data[ which(data$name == taxa) ,] }
     
   }
   
