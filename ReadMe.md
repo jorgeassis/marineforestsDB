@@ -10,6 +10,8 @@ We gathered distribution records from various sources and provide a fine-tuned d
 
 We document the procedure and provide a dataset in tabular format based on Darwin Core Standard (DwC), alongside with a set of functions in R language for data management and visualization.
 
+Raw data permanent identifier: 10.6084/m9.figshare.7854767
+
 <br>
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure1.png "Main Figure")
