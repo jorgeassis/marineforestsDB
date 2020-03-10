@@ -3,12 +3,6 @@
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
 <br><br>
 
-<div style="background-image:
-         url('https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/Data/mainFigure0.jpg');
-">
-</div>
-
-
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure0.jpg "Main Figure")
 
 <br>
