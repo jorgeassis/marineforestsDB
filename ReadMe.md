@@ -1,10 +1,10 @@
 # A fine-tuned global distribution dataset of marine forests
 
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
-
+<br>
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure0.jpg "Main Figure")
 
-### Abstract
+<br><br>
 
 Species distribution records are a prerequisite to follow climate-induced range shifts across space and time. However, synthesizing information from various sources such as peer-reviewed literature, herbaria, digital repositories and citizen science initiatives is not only costly and time consuming, but also challenging, as data may contain thematic and taxonomic errors and generally lack standardized formats. We address this gap for important marine ecosystem-structuring species of large brown algae and seagrasses. 
 
