@@ -8,6 +8,8 @@ Species distribution records are a prerequisite to follow climate-induced range 
 
 We gathered distribution records from various sources and provide a fine-tuned dataset with ~2.8 million dereplicated records, taxonomically standardized for 682 species, and considering important physiological and biogeographical traits. Specifically, a flagging system was implemented to sign potentially incorrect records reported on land, in regions with limiting light conditions for photosynthesis, and outside the known distribution of species, as inferred from the most recent published literature. 
 
+![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure0.png "Main Figure")
+
 We document the procedure and provide a dataset in tabular format based on Darwin Core Standard (DwC), alongside with a set of functions in R language for data management and visualization.
 
 Raw data permanent identifier: 10.6084/m9.figshare.7854767
