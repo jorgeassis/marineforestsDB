@@ -3,26 +3,21 @@
 J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faugeron, E.A. Serrão
 <br><br>
 
-<div class="circle" style="background-image:
-       url('https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/Data/mainFigure0.jpg')">
+<div style="background-image:
+         url('https://raw.githubusercontent.com/jorgeassis/marineforestsDB/master/Data/mainFigure0.jpg');
+         display: block;
+         width: 150px;
+         height: 150px;
+         margin: 1em auto;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center center;
+         -webkit-border-radius: 99em;
+         -moz-border-radius: 99em;
+         border-radius: 99em;
+         border: 5px solid #eee;
+         box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);">
 </div>
-
-<style>
-.circle {
-  display: block;
-  width: 150px;
-  height: 150px;
-  margin: 1em auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-border-radius: 99em;
-  -moz-border-radius: 99em;
-  border-radius: 99em;
-  border: 5px solid #eee;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
-}
-</style>
 
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure0.jpg "Main Figure")
