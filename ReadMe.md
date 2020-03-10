@@ -5,6 +5,7 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure0.png "Main Figure")
 
+
 ### Abstract
 
 Species distribution records are a prerequisite to follow climate-induced range shifts across space and time. However, synthesizing information from various sources such as peer-reviewed literature, herbaria, digital repositories and citizen science initiatives is not only costly and time consuming, but also challenging, as data may contain thematic and taxonomic errors and generally lack standardized formats. We address this gap for important marine ecosystem-structuring species of large brown algae and seagrasses. 
@@ -14,8 +15,6 @@ We gathered distribution records from various sources and provide a fine-tuned d
 We document the procedure and provide a dataset in tabular format based on Darwin Core Standard (DwC), alongside with a set of functions in R language for data management and visualization.
 
 Raw data permanent identifier: 10.6084/m9.figshare.7854767
-
-<br>
 
 
 ### R functions for data management and visualization
@@ -38,7 +37,6 @@ listDataMap() | Lists data available in a map | extractDataset object name  (cha
 subsetDataset() | Subsets available data to a specific taxon | extractDataset object name (character), taxa (character), status (character)
 exportData() | Exports available data to a text delimited file or shapefile (geospatial vector data for geographic information systems) | extractDataset object name (character), taxa (character), status (character), file type (character), file name (character)
 
-<br>
 
 ### Example of main functions use
 
