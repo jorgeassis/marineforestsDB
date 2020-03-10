@@ -16,7 +16,7 @@ We document the procedure and provide a dataset in tabular format based on Darwi
 
 Raw data permanent identifier: 10.6084/m9.figshare.7854767
 
-
+<br>
 ## R functions for data management and visualization
 
 We provide a set of functions in R language to facilitate extraction, listing and visualization of occurrence records. The functions can be easily installed by entering the following line into the command prompt:
@@ -38,6 +38,7 @@ subsetDataset() | Subsets available data to a specific taxon | extractDataset ob
 exportData() | Exports available data to a text delimited file or shapefile (geospatial vector data for geographic information systems) | extractDataset object name (character), taxa (character), status (character), file type (character), file name (character)
 
 <br>
+
 ### Example of main functions use
 
 1. dataset <- extractDataset("brownAlgae",pruned=TRUE)<br>
@@ -61,10 +62,12 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 2. getTaxonomyWorms("Laminaria digitata")<br>
 3. myDataFrame <- subsetDataset(dataset,taxa="Laminaria digitata",status="accepted")
 
+<br>
 ## License
 
 The content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
+<br>
 ## Appropriate credits
 
 Assis, J., Fragkopoulou, E., Frade, D., Neiva, J., Oliveira, A., Abecasis, D., Faugeron, A., Serrão, E.A. (2019) A fine-tuned global distribution dataset of marine forests. Scientific Data
