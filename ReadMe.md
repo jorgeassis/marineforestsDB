@@ -17,13 +17,6 @@ Raw data permanent identifier: 10.6084/m9.figshare.7854767
 
 <br>
 
-![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure1.png "Main Figure")
-Figure 1. Dataset of marine forest species of brown algae (orders Fucales, Laminariales and Tilopteridales). Red and gray circles depict raw and fine-tuned (unbiased) data, respectively.
-
-![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure2.png "Main Figure")
-Figure 2. Dataset of marine forest species of seagrasses (families Cymodoceaceae, Hydrocharitaceae, Posidoniaceae and Zosteraceae). Red and gray circles depict raw and fine-tuned (unbiased) data, respectively.
-
-<br>
 
 ### R functions for data management and visualization
 
@@ -80,4 +73,4 @@ The content on this repository is licensed under a [Creative Commons Attribution
 
 ### Appropriate credits
 
-Assis, J., Fragkopoulou, E., Frade, D., Neiva, J., Oliveira, A., Abecasis, D., Faugeron, A., Serrão, E.A. (2019) A fine-tuned global distribution dataset of marine forests.
+Assis, J., Fragkopoulou, E., Frade, D., Neiva, J., Oliveira, A., Abecasis, D., Faugeron, A., Serrão, E.A. (2019) A fine-tuned global distribution dataset of marine forests. Scientific Data
