@@ -63,13 +63,9 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 2. getTaxonomyWorms("Laminaria digitata")<br>
 3. myDataFrame <- subsetDataset(dataset,taxa="Laminaria digitata",status="accepted")
 
-<br>
-
 ### License
 
 The content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
-
-<br>
 
 ### Appropriate credits
 
