@@ -6,7 +6,7 @@ J. Assis, E. Fragkopoulou, D. Frade, J. Neiva, A. Oliveira, D. Abecasis, S. Faug
 ![alt text](https://github.com/jorgeassis/marineforestsDB/raw/master/Data/mainFigure0.png "Main Figure")
 
 
-## Abstract
+### Abstract
 
 Species distribution records are a prerequisite to follow climate-induced range shifts across space and time. However, synthesizing information from various sources such as peer-reviewed literature, herbaria, digital repositories and citizen science initiatives is not only costly and time consuming, but also challenging, as data may contain thematic and taxonomic errors and generally lack standardized formats. We address this gap for important marine ecosystem-structuring species of large brown algae and seagrasses. 
 
@@ -17,7 +17,8 @@ We document the procedure and provide a dataset in tabular format based on Darwi
 Raw data permanent identifier: 10.6084/m9.figshare.7854767
 
 <br>
-## R functions for data management and visualization
+
+### R functions for data management and visualization
 
 We provide a set of functions in R language to facilitate extraction, listing and visualization of occurrence records. The functions can be easily installed by entering the following line into the command prompt:
 
@@ -63,11 +64,13 @@ exportData() | Exports available data to a text delimited file or shapefile (geo
 3. myDataFrame <- subsetDataset(dataset,taxa="Laminaria digitata",status="accepted")
 
 <br>
-## License
+
+### License
 
 The content on this repository is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
 <br>
-## Appropriate credits
+
+### Appropriate credits
 
 Assis, J., Fragkopoulou, E., Frade, D., Neiva, J., Oliveira, A., Abecasis, D., Faugeron, A., Serrão, E.A. (2019) A fine-tuned global distribution dataset of marine forests. Scientific Data
